@@ -1,0 +1,25 @@
+{
+  "source": "Settings transcribed from the completed research reports; original provider job receipts are not included.",
+  "base_model": "accounts/fireworks/models/qwen3-4b-instruct-2507",
+  "method": "LoRA SFT",
+  "lora_rank": 8,
+  "epochs": 2,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "learning_rate_schedule": "constant",
+  "warmup_steps": 0,
+  "training_validation_dataset": null,
+  "banking77_training_examples": 1925,
+  "support_training_examples": 180,
+  "reported_training_charge_usd": {
+    "banking77": 1.55,
+    "support": 0.07
+  },
+  "cost_scope": "Approximate reported training charges only; excludes serving and is not a verified invoice.",
+  "inference": {
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "max_tokens": 40
+  },
+  "inference_scope": "BANKING77; the support client used max_tokens 120 and did not set reasoning_effort."
+}

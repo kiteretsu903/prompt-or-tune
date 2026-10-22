@@ -1,0 +1,24 @@
+{
+  "dataset": "PolyAI BANKING77",
+  "license": "CC BY 4.0",
+  "sources": {
+    "train": {
+      "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/train.csv",
+      "sha256": "b06e26ac675513959a63135f11b94ea7786ed02da65db93a5650d8838cbc664b"
+    },
+    "test": {
+      "url": "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/test.csv",
+      "sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d"
+    }
+  },
+  "seed": 42,
+  "intent_count": 77,
+  "train_per_intent": 25,
+  "dev_per_intent": 5,
+  "test_overlaps_removed_from_training": 7,
+  "duplicate_training_texts_removed": 4,
+  "train_count": 1925,
+  "dev_count": 385,
+  "reserve_count": 7682,
+  "test_count": 3080
+}

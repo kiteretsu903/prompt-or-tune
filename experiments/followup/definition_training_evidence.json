@@ -1,0 +1,2312 @@
+{
+  "activate_my_card": [
+    {
+      "id": "banking77-train-0005",
+      "text": "I was unable to activate my card.",
+      "expected": {
+        "intent": "activate_my_card"
+      }
+    },
+    {
+      "id": "banking77-train-0047",
+      "text": "What do I need to do in order to use my card I just got?",
+      "expected": {
+        "intent": "activate_my_card"
+      }
+    },
+    {
+      "id": "banking77-train-0149",
+      "text": "What information do I need to gather in order to activate my card?",
+      "expected": {
+        "intent": "activate_my_card"
+      }
+    },
+    {
+      "id": "banking77-train-0168",
+      "text": "Activate my card",
+      "expected": {
+        "intent": "activate_my_card"
+      }
+    }
+  ],
+  "age_limit": [
+    {
+      "id": "banking77-train-0076",
+      "text": "Do you have any accounts for children ?",
+      "expected": {
+        "intent": "age_limit"
+      }
+    },
+    {
+      "id": "banking77-train-0249",
+      "text": "At what age can I open an account?",
+      "expected": {
+        "intent": "age_limit"
+      }
+    },
+    {
+      "id": "banking77-train-0253",
+      "text": "Is there an age limit to get an account?",
+      "expected": {
+        "intent": "age_limit"
+      }
+    },
+    {
+      "id": "banking77-train-0369",
+      "text": "Do you guys have any age restrictions?",
+      "expected": {
+        "intent": "age_limit"
+      }
+    }
+  ],
+  "apple_pay_or_google_pay": [
+    {
+      "id": "banking77-train-0141",
+      "text": "I'm trying to use my Apple Watch to top up my google pay. Do I need a special app?",
+      "expected": {
+        "intent": "apple_pay_or_google_pay"
+      }
+    },
+    {
+      "id": "banking77-train-0181",
+      "text": "Can I use google pay to top up?",
+      "expected": {
+        "intent": "apple_pay_or_google_pay"
+      }
+    },
+    {
+      "id": "banking77-train-0189",
+      "text": "Is there a way to top up using my Apple Watch?",
+      "expected": {
+        "intent": "apple_pay_or_google_pay"
+      }
+    },
+    {
+      "id": "banking77-train-0256",
+      "text": "What currencies does google pay top up accept?",
+      "expected": {
+        "intent": "apple_pay_or_google_pay"
+      }
+    }
+  ],
+  "atm_support": [
+    {
+      "id": "banking77-train-0024",
+      "text": "Will this card work at any ATM?",
+      "expected": {
+        "intent": "atm_support"
+      }
+    },
+    {
+      "id": "banking77-train-0129",
+      "text": "Do I have to use a bank approved ATM to withdraw money?",
+      "expected": {
+        "intent": "atm_support"
+      }
+    },
+    {
+      "id": "banking77-train-0178",
+      "text": "I need an ATM right now!",
+      "expected": {
+        "intent": "atm_support"
+      }
+    },
+    {
+      "id": "banking77-train-0317",
+      "text": "What ATMs can I use my card?",
+      "expected": {
+        "intent": "atm_support"
+      }
+    }
+  ],
+  "automatic_top_up": [
+    {
+      "id": "banking77-train-0110",
+      "text": "What are the maximum amount you can do for auto top-up?",
+      "expected": {
+        "intent": "automatic_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0124",
+      "text": "When the time is right will this automatically replenish my balance?",
+      "expected": {
+        "intent": "automatic_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0193",
+      "text": "If I am running low on credit can I auto top up?",
+      "expected": {
+        "intent": "automatic_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0228",
+      "text": "My funds are low, can I auto top up?",
+      "expected": {
+        "intent": "automatic_top_up"
+      }
+    }
+  ],
+  "balance_not_updated_after_bank_transfer": [
+    {
+      "id": "banking77-train-0083",
+      "text": "Why isn't my balance reflecting a transfer I did?",
+      "expected": {
+        "intent": "balance_not_updated_after_bank_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0099",
+      "text": "Why can't I see a transfer to my account?",
+      "expected": {
+        "intent": "balance_not_updated_after_bank_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0183",
+      "text": "How long does it take for a bank transfer to show on my balance?",
+      "expected": {
+        "intent": "balance_not_updated_after_bank_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0221",
+      "text": "I'm wondering how long it takes for my money to get to me after a bank transfer.",
+      "expected": {
+        "intent": "balance_not_updated_after_bank_transfer"
+      }
+    }
+  ],
+  "balance_not_updated_after_cheque_or_cash_deposit": [
+    {
+      "id": "banking77-train-0085",
+      "text": "Hi, I want to inquire about my balance. Some cash was deposited and it hasn't updated yet.",
+      "expected": {
+        "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+      }
+    },
+    {
+      "id": "banking77-train-0086",
+      "text": "When will the check I deposited post to my account?",
+      "expected": {
+        "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+      }
+    },
+    {
+      "id": "banking77-train-0131",
+      "text": "When will my deposit be processed?",
+      "expected": {
+        "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+      }
+    },
+    {
+      "id": "banking77-train-0172",
+      "text": "What's going on with my balance? Shouldn't it be a bit higher since I deposited a cheque a day ago?",
+      "expected": {
+        "intent": "balance_not_updated_after_cheque_or_cash_deposit"
+      }
+    }
+  ],
+  "beneficiary_not_allowed": [
+    {
+      "id": "banking77-train-0013",
+      "text": "The transfer to my beneficiary has not gone through",
+      "expected": {
+        "intent": "beneficiary_not_allowed"
+      }
+    },
+    {
+      "id": "banking77-train-0019",
+      "text": "Hi, I am interested buying crypto currency but unable to purchase it through the application. I do want to do the exchange, Could you please let me know what is the problem?",
+      "expected": {
+        "intent": "beneficiary_not_allowed"
+      }
+    },
+    {
+      "id": "banking77-train-0286",
+      "text": "why is a transfer to beneficiary not possible?",
+      "expected": {
+        "intent": "beneficiary_not_allowed"
+      }
+    },
+    {
+      "id": "banking77-train-0359",
+      "text": "Why would a transfer to an account not be allowed?",
+      "expected": {
+        "intent": "beneficiary_not_allowed"
+      }
+    }
+  ],
+  "cancel_transfer": [
+    {
+      "id": "banking77-train-0082",
+      "text": "Could I please cancel my transfer, I paid it into the wrong account. I need to pay it into the right account by tomorrow.",
+      "expected": {
+        "intent": "cancel_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0194",
+      "text": "I just initiated a transfer but I'd like to cancel it.",
+      "expected": {
+        "intent": "cancel_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0466",
+      "text": "I've made a horrible mistake!  I transferred money to the wrong account by accident!  I entered one of the digits wrong.  I need this cancelled immediately please.",
+      "expected": {
+        "intent": "cancel_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0528",
+      "text": "I need to cancel my recent transfer. I made a mistake. Please help quickly before the transfer goes through.",
+      "expected": {
+        "intent": "cancel_transfer"
+      }
+    }
+  ],
+  "card_about_to_expire": [
+    {
+      "id": "banking77-train-0137",
+      "text": "What happens if my card expires?",
+      "expected": {
+        "intent": "card_about_to_expire"
+      }
+    },
+    {
+      "id": "banking77-train-0157",
+      "text": "Can I order a new card by phone?",
+      "expected": {
+        "intent": "card_about_to_expire"
+      }
+    },
+    {
+      "id": "banking77-train-0169",
+      "text": "My card's expiration date is close.",
+      "expected": {
+        "intent": "card_about_to_expire"
+      }
+    },
+    {
+      "id": "banking77-train-0180",
+      "text": "How do I order a new card? The current one is about to expire.",
+      "expected": {
+        "intent": "card_about_to_expire"
+      }
+    }
+  ],
+  "card_acceptance": [
+    {
+      "id": "banking77-train-0109",
+      "text": "Are there limits as to where my card will be accepted?",
+      "expected": {
+        "intent": "card_acceptance"
+      }
+    },
+    {
+      "id": "banking77-train-0320",
+      "text": "WHAT IS THE ATMOSPHERE OF IT",
+      "expected": {
+        "intent": "card_acceptance"
+      }
+    },
+    {
+      "id": "banking77-train-0404",
+      "text": "Where can I pay with my card?",
+      "expected": {
+        "intent": "card_acceptance"
+      }
+    },
+    {
+      "id": "banking77-train-0465",
+      "text": "Who accepts the card?",
+      "expected": {
+        "intent": "card_acceptance"
+      }
+    }
+  ],
+  "card_arrival": [
+    {
+      "id": "banking77-train-0021",
+      "text": "My card isn't here yet.",
+      "expected": {
+        "intent": "card_arrival"
+      }
+    },
+    {
+      "id": "banking77-train-0030",
+      "text": "What can I do to track the card you sent me?",
+      "expected": {
+        "intent": "card_arrival"
+      }
+    },
+    {
+      "id": "banking77-train-0166",
+      "text": "What is the status of my card's delivery?",
+      "expected": {
+        "intent": "card_arrival"
+      }
+    },
+    {
+      "id": "banking77-train-0179",
+      "text": "I have not received my card and it's been a week, what do I do?",
+      "expected": {
+        "intent": "card_arrival"
+      }
+    }
+  ],
+  "card_delivery_estimate": [
+    {
+      "id": "banking77-train-0070",
+      "text": "How long is the delivery time to the US?",
+      "expected": {
+        "intent": "card_delivery_estimate"
+      }
+    },
+    {
+      "id": "banking77-train-0255",
+      "text": "Can i choose a specific delivery date?",
+      "expected": {
+        "intent": "card_delivery_estimate"
+      }
+    },
+    {
+      "id": "banking77-train-0413",
+      "text": "When can I expect my new card to get here?",
+      "expected": {
+        "intent": "card_delivery_estimate"
+      }
+    },
+    {
+      "id": "banking77-train-0503",
+      "text": "How long does it take for cards to be delivered after ordering them?",
+      "expected": {
+        "intent": "card_delivery_estimate"
+      }
+    }
+  ],
+  "card_linking": [
+    {
+      "id": "banking77-train-0074",
+      "text": "I found my card. How can I put it into my app?",
+      "expected": {
+        "intent": "card_linking"
+      }
+    },
+    {
+      "id": "banking77-train-0205",
+      "text": "Can I activate a card in the app?",
+      "expected": {
+        "intent": "card_linking"
+      }
+    },
+    {
+      "id": "banking77-train-0257",
+      "text": "I want to reactivate my card, I thought I had lost it but found it again in my jacket this morning.",
+      "expected": {
+        "intent": "card_linking"
+      }
+    },
+    {
+      "id": "banking77-train-0325",
+      "text": "How do I link one of your card that I already have?",
+      "expected": {
+        "intent": "card_linking"
+      }
+    }
+  ],
+  "card_not_working": [
+    {
+      "id": "banking77-train-0026",
+      "text": "Why doesn't my card work for any transactions?",
+      "expected": {
+        "intent": "card_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0048",
+      "text": "The card is non-functional.",
+      "expected": {
+        "intent": "card_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0068",
+      "text": "Why won't the machine accept my card anymore?",
+      "expected": {
+        "intent": "card_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0114",
+      "text": "Today I was out eating and my card was declined. Why's that?",
+      "expected": {
+        "intent": "card_not_working"
+      }
+    }
+  ],
+  "card_payment_fee_charged": [
+    {
+      "id": "banking77-train-0063",
+      "text": "I got charged a service fee on my account. Can it be waived since I didn't know about it before?",
+      "expected": {
+        "intent": "card_payment_fee_charged"
+      }
+    },
+    {
+      "id": "banking77-train-0116",
+      "text": "Why am I being a charged for using my card?",
+      "expected": {
+        "intent": "card_payment_fee_charged"
+      }
+    },
+    {
+      "id": "banking77-train-0352",
+      "text": "I saw a fee on my app from one of my payments and I wasn't sure where it came from. Is there a way you can tell me when there's an additional fee for my payments?",
+      "expected": {
+        "intent": "card_payment_fee_charged"
+      }
+    },
+    {
+      "id": "banking77-train-0364",
+      "text": "I see a fee that I think was charged because I paid by card.",
+      "expected": {
+        "intent": "card_payment_fee_charged"
+      }
+    }
+  ],
+  "card_payment_not_recognised": [
+    {
+      "id": "banking77-train-0010",
+      "text": "The app is showing a payment I never made.",
+      "expected": {
+        "intent": "card_payment_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0018",
+      "text": "I have just read my statement and there is a payment I don't recognise.",
+      "expected": {
+        "intent": "card_payment_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0125",
+      "text": "I saw a payment come out of my account for a merchant I don't remember.",
+      "expected": {
+        "intent": "card_payment_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0154",
+      "text": "I did not do this payment",
+      "expected": {
+        "intent": "card_payment_not_recognised"
+      }
+    }
+  ],
+  "card_payment_wrong_exchange_rate": [
+    {
+      "id": "banking77-train-0034",
+      "text": "I purchased something while traveling, and the exchange rate applied was wrong.",
+      "expected": {
+        "intent": "card_payment_wrong_exchange_rate"
+      }
+    },
+    {
+      "id": "banking77-train-0088",
+      "text": "My purchase used the wrong exchange rate",
+      "expected": {
+        "intent": "card_payment_wrong_exchange_rate"
+      }
+    },
+    {
+      "id": "banking77-train-0295",
+      "text": "I purchased an item and the exchange rate was wrong",
+      "expected": {
+        "intent": "card_payment_wrong_exchange_rate"
+      }
+    },
+    {
+      "id": "banking77-train-0342",
+      "text": "I recently bought something abroad but the exchange rate is incorrect. Why?",
+      "expected": {
+        "intent": "card_payment_wrong_exchange_rate"
+      }
+    }
+  ],
+  "card_swallowed": [
+    {
+      "id": "banking77-train-0107",
+      "text": "The bank machine didn't give my card back how do I get a new one fast?",
+      "expected": {
+        "intent": "card_swallowed"
+      }
+    },
+    {
+      "id": "banking77-train-0226",
+      "text": "My card is stuck inside the ATM, what am I supposed to do?",
+      "expected": {
+        "intent": "card_swallowed"
+      }
+    },
+    {
+      "id": "banking77-train-0330",
+      "text": "An ATM machine didn't give me back my card.",
+      "expected": {
+        "intent": "card_swallowed"
+      }
+    },
+    {
+      "id": "banking77-train-0376",
+      "text": "My card was eaten by the cash machine what do I do?",
+      "expected": {
+        "intent": "card_swallowed"
+      }
+    }
+  ],
+  "cash_withdrawal_charge": [
+    {
+      "id": "banking77-train-0032",
+      "text": "Why did using an ATM cause me to be charged an additional fee?",
+      "expected": {
+        "intent": "cash_withdrawal_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0093",
+      "text": "Is there a cash withdrawal fee? Because I just got charged?",
+      "expected": {
+        "intent": "cash_withdrawal_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0095",
+      "text": "Why was I charged a fee on a cash withdrawal?",
+      "expected": {
+        "intent": "cash_withdrawal_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0115",
+      "text": "Why did you charge me extra for withdrawing money?",
+      "expected": {
+        "intent": "cash_withdrawal_charge"
+      }
+    }
+  ],
+  "cash_withdrawal_not_recognised": [
+    {
+      "id": "banking77-train-0190",
+      "text": "My app shows cash I didn't get.",
+      "expected": {
+        "intent": "cash_withdrawal_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0366",
+      "text": "Can you tell me what this cash withdrawal is?",
+      "expected": {
+        "intent": "cash_withdrawal_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0471",
+      "text": "I see a cash withdrawal in the app that I did not do.",
+      "expected": {
+        "intent": "cash_withdrawal_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0479",
+      "text": "Why would the app show a withdrawal that I did not make?",
+      "expected": {
+        "intent": "cash_withdrawal_not_recognised"
+      }
+    }
+  ],
+  "change_pin": [
+    {
+      "id": "banking77-train-0140",
+      "text": "How can I change my PIN without going to the bank?",
+      "expected": {
+        "intent": "change_pin"
+      }
+    },
+    {
+      "id": "banking77-train-0237",
+      "text": "Can I change my PIN in Austria?",
+      "expected": {
+        "intent": "change_pin"
+      }
+    },
+    {
+      "id": "banking77-train-0296",
+      "text": "At what cash machines can I change my PIN?",
+      "expected": {
+        "intent": "change_pin"
+      }
+    },
+    {
+      "id": "banking77-train-0361",
+      "text": "Am I able to change my PIN at certain cash machines?",
+      "expected": {
+        "intent": "change_pin"
+      }
+    }
+  ],
+  "compromised_card": [
+    {
+      "id": "banking77-train-0033",
+      "text": "There are transactions that I did not make on my account, I think someone has my information.",
+      "expected": {
+        "intent": "compromised_card"
+      }
+    },
+    {
+      "id": "banking77-train-0127",
+      "text": "The card has suffered a security breach.",
+      "expected": {
+        "intent": "compromised_card"
+      }
+    },
+    {
+      "id": "banking77-train-0134",
+      "text": "I think my card has been used by somebody else since I was never in the little town where some transactions on this bill have come from. Please stop this right away.",
+      "expected": {
+        "intent": "compromised_card"
+      }
+    },
+    {
+      "id": "banking77-train-0203",
+      "text": "I think someone may be using my card.",
+      "expected": {
+        "intent": "compromised_card"
+      }
+    }
+  ],
+  "contactless_not_working": [
+    {
+      "id": "banking77-train-0073",
+      "text": "Contactless payments need to be enabled for my card.",
+      "expected": {
+        "intent": "contactless_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0075",
+      "text": "Should i uninstall the app before i try it again?",
+      "expected": {
+        "intent": "contactless_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0195",
+      "text": "Any charges applicable for new card?",
+      "expected": {
+        "intent": "contactless_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0303",
+      "text": "Help me to set up contactless payments.",
+      "expected": {
+        "intent": "contactless_not_working"
+      }
+    }
+  ],
+  "country_support": [
+    {
+      "id": "banking77-train-0161",
+      "text": "Do you do business in the EU?",
+      "expected": {
+        "intent": "country_support"
+      }
+    },
+    {
+      "id": "banking77-train-0235",
+      "text": "Where in the European Union can I get a card?",
+      "expected": {
+        "intent": "country_support"
+      }
+    },
+    {
+      "id": "banking77-train-0263",
+      "text": "Which countries do you work with?",
+      "expected": {
+        "intent": "country_support"
+      }
+    },
+    {
+      "id": "banking77-train-0288",
+      "text": "Although I am not located in the UK area, may i still receive a card?",
+      "expected": {
+        "intent": "country_support"
+      }
+    }
+  ],
+  "declined_card_payment": [
+    {
+      "id": "banking77-train-0031",
+      "text": "My card payment didn't work",
+      "expected": {
+        "intent": "declined_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0045",
+      "text": "My card didn't go through.  It doesn't make sense.  You told me that everything was ok.",
+      "expected": {
+        "intent": "declined_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0064",
+      "text": "I had a problem with my card payment, can you help?",
+      "expected": {
+        "intent": "declined_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0191",
+      "text": "Do you know why my card payment has been declined?",
+      "expected": {
+        "intent": "declined_card_payment"
+      }
+    }
+  ],
+  "declined_cash_withdrawal": [
+    {
+      "id": "banking77-train-0040",
+      "text": "I tried to withdraw cash, but got declined!",
+      "expected": {
+        "intent": "declined_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0057",
+      "text": "Please help me with my card. As i have tried to use my card in two different ATMs but repeatedly it was declining by ATM.",
+      "expected": {
+        "intent": "declined_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0340",
+      "text": "Is my card broken? I can't get cash out of the ATM",
+      "expected": {
+        "intent": "declined_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0407",
+      "text": "When I tried to access my cash, I wasn't allowed!",
+      "expected": {
+        "intent": "declined_cash_withdrawal"
+      }
+    }
+  ],
+  "declined_transfer": [
+    {
+      "id": "banking77-train-0022",
+      "text": "I don't have any idea what's going on but all of my transfers keep getting declined. I have double-checked over all of my recipient names and they are correct.",
+      "expected": {
+        "intent": "declined_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0053",
+      "text": "I tried to do a transfer and it's saying it declined.",
+      "expected": {
+        "intent": "declined_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0186",
+      "text": "I have a transfer that was declined.",
+      "expected": {
+        "intent": "declined_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0212",
+      "text": "I was doing a transfer and received a \"decline\" message.",
+      "expected": {
+        "intent": "declined_transfer"
+      }
+    }
+  ],
+  "direct_debit_payment_not_recognised": [
+    {
+      "id": "banking77-train-0102",
+      "text": "Am I able to look back at a transaction to see who with drawled some money from my account? I don't remember authorizing this a few weeks ago, but wanted to double check who took the money.",
+      "expected": {
+        "intent": "direct_debit_payment_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0121",
+      "text": "i would like to dispute a direct debit payment",
+      "expected": {
+        "intent": "direct_debit_payment_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0123",
+      "text": "How do I dispute a direct debit transaction?",
+      "expected": {
+        "intent": "direct_debit_payment_not_recognised"
+      }
+    },
+    {
+      "id": "banking77-train-0152",
+      "text": "I think I am a victim of fraud.  I noticed there was a charge on my account that I didn't do because I haven't touched my card today.  Can you please reverse the charge and refund my money?",
+      "expected": {
+        "intent": "direct_debit_payment_not_recognised"
+      }
+    }
+  ],
+  "disposable_card_limits": [
+    {
+      "id": "banking77-train-0044",
+      "text": "I need a number of disposable cards everyday.",
+      "expected": {
+        "intent": "disposable_card_limits"
+      }
+    },
+    {
+      "id": "banking77-train-0201",
+      "text": "I have to make several disposable cards per day.",
+      "expected": {
+        "intent": "disposable_card_limits"
+      }
+    },
+    {
+      "id": "banking77-train-0306",
+      "text": "Whats the maximum disposable virtual cards?",
+      "expected": {
+        "intent": "disposable_card_limits"
+      }
+    },
+    {
+      "id": "banking77-train-0324",
+      "text": "Can i make several disposable cardsper day?",
+      "expected": {
+        "intent": "disposable_card_limits"
+      }
+    }
+  ],
+  "edit_personal_details": [
+    {
+      "id": "banking77-train-0023",
+      "text": "How do I change my details?",
+      "expected": {
+        "intent": "edit_personal_details"
+      }
+    },
+    {
+      "id": "banking77-train-0059",
+      "text": "How do I edit the personal details on my account?",
+      "expected": {
+        "intent": "edit_personal_details"
+      }
+    },
+    {
+      "id": "banking77-train-0069",
+      "text": "Where can I modify my information?",
+      "expected": {
+        "intent": "edit_personal_details"
+      }
+    },
+    {
+      "id": "banking77-train-0111",
+      "text": "Since I just got married I need to change my name.",
+      "expected": {
+        "intent": "edit_personal_details"
+      }
+    }
+  ],
+  "exchange_charge": [
+    {
+      "id": "banking77-train-0101",
+      "text": "Does a discount apply if I exchange currencies frequently?",
+      "expected": {
+        "intent": "exchange_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0243",
+      "text": "What exactly is the exchange fee?",
+      "expected": {
+        "intent": "exchange_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0275",
+      "text": "what is the cost for exchanging currencies?",
+      "expected": {
+        "intent": "exchange_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0341",
+      "text": "Do exchanges cost more?",
+      "expected": {
+        "intent": "exchange_charge"
+      }
+    }
+  ],
+  "exchange_rate": [
+    {
+      "id": "banking77-train-0119",
+      "text": "Can you explain your exchange rates basis?",
+      "expected": {
+        "intent": "exchange_rate"
+      }
+    },
+    {
+      "id": "banking77-train-0146",
+      "text": "How do I know what exchange rate I will get?",
+      "expected": {
+        "intent": "exchange_rate"
+      }
+    },
+    {
+      "id": "banking77-train-0167",
+      "text": "What is the exchange rate for EUR?",
+      "expected": {
+        "intent": "exchange_rate"
+      }
+    },
+    {
+      "id": "banking77-train-0304",
+      "text": "What exchange rate will I receive?",
+      "expected": {
+        "intent": "exchange_rate"
+      }
+    }
+  ],
+  "exchange_via_app": [
+    {
+      "id": "banking77-train-0042",
+      "text": "Can you  tell me how to get AUD not GBP?",
+      "expected": {
+        "intent": "exchange_via_app"
+      }
+    },
+    {
+      "id": "banking77-train-0052",
+      "text": "I need to exchange my GBP to AUD, how would I do this?",
+      "expected": {
+        "intent": "exchange_via_app"
+      }
+    },
+    {
+      "id": "banking77-train-0202",
+      "text": "How do I switch to a different currency?",
+      "expected": {
+        "intent": "exchange_via_app"
+      }
+    },
+    {
+      "id": "banking77-train-0210",
+      "text": "I need to exchange a currency - can I do that here?",
+      "expected": {
+        "intent": "exchange_via_app"
+      }
+    }
+  ],
+  "extra_charge_on_statement": [
+    {
+      "id": "banking77-train-0016",
+      "text": "My statement is showing an extra \u00a31 charge and I am unsure why. Is there an explanation for this?",
+      "expected": {
+        "intent": "extra_charge_on_statement"
+      }
+    },
+    {
+      "id": "banking77-train-0222",
+      "text": "There is  an extra 1\u00a3 charge on my app. Why did it charge me extra?",
+      "expected": {
+        "intent": "extra_charge_on_statement"
+      }
+    },
+    {
+      "id": "banking77-train-0261",
+      "text": "Why did you charge me extra?",
+      "expected": {
+        "intent": "extra_charge_on_statement"
+      }
+    },
+    {
+      "id": "banking77-train-0265",
+      "text": "What is this extra pound charge for?",
+      "expected": {
+        "intent": "extra_charge_on_statement"
+      }
+    }
+  ],
+  "failed_transfer": [
+    {
+      "id": "banking77-train-0160",
+      "text": "Why was my transaction not approved?",
+      "expected": {
+        "intent": "failed_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0258",
+      "text": "Transfer isn't working?",
+      "expected": {
+        "intent": "failed_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0302",
+      "text": "I tried and tried, but I could not complete my transfer. Tell me what is wrong.",
+      "expected": {
+        "intent": "failed_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0484",
+      "text": "I don't think my transfer wen through. Why?",
+      "expected": {
+        "intent": "failed_transfer"
+      }
+    }
+  ],
+  "fiat_currency_support": [
+    {
+      "id": "banking77-train-0126",
+      "text": "Can you change my currency to EUR?",
+      "expected": {
+        "intent": "fiat_currency_support"
+      }
+    },
+    {
+      "id": "banking77-train-0363",
+      "text": "Do you hold money and if so, what currencies do you accept?",
+      "expected": {
+        "intent": "fiat_currency_support"
+      }
+    },
+    {
+      "id": "banking77-train-0391",
+      "text": "What fiat currencies do you allow exchange with?",
+      "expected": {
+        "intent": "fiat_currency_support"
+      }
+    },
+    {
+      "id": "banking77-train-0584",
+      "text": "Is the EUR accepted for exchanges?",
+      "expected": {
+        "intent": "fiat_currency_support"
+      }
+    }
+  ],
+  "get_disposable_virtual_card": [
+    {
+      "id": "banking77-train-0043",
+      "text": "What systems do you have in place for my security when using my card for everyday purchases?",
+      "expected": {
+        "intent": "get_disposable_virtual_card"
+      }
+    },
+    {
+      "id": "banking77-train-0079",
+      "text": "Am I able to order a disposable virtual card?",
+      "expected": {
+        "intent": "get_disposable_virtual_card"
+      }
+    },
+    {
+      "id": "banking77-train-0171",
+      "text": "Can you provide me a disposable virtual card?",
+      "expected": {
+        "intent": "get_disposable_virtual_card"
+      }
+    },
+    {
+      "id": "banking77-train-0489",
+      "text": "can i get a virtual card online",
+      "expected": {
+        "intent": "get_disposable_virtual_card"
+      }
+    }
+  ],
+  "get_physical_card": [
+    {
+      "id": "banking77-train-0089",
+      "text": "Where can I locate my PIN at?",
+      "expected": {
+        "intent": "get_physical_card"
+      }
+    },
+    {
+      "id": "banking77-train-0175",
+      "text": "When do I get my PIN?",
+      "expected": {
+        "intent": "get_physical_card"
+      }
+    },
+    {
+      "id": "banking77-train-0177",
+      "text": "Where can I find my PIN? I haven't gotten it yet.",
+      "expected": {
+        "intent": "get_physical_card"
+      }
+    },
+    {
+      "id": "banking77-train-0244",
+      "text": "wheres my pin",
+      "expected": {
+        "intent": "get_physical_card"
+      }
+    }
+  ],
+  "getting_spare_card": [
+    {
+      "id": "banking77-train-0027",
+      "text": "Is there any way to get another card on the same account?",
+      "expected": {
+        "intent": "getting_spare_card"
+      }
+    },
+    {
+      "id": "banking77-train-0338",
+      "text": "I would like to purchase another card.",
+      "expected": {
+        "intent": "getting_spare_card"
+      }
+    },
+    {
+      "id": "banking77-train-0387",
+      "text": "Is there a fee for sending out more cards?",
+      "expected": {
+        "intent": "getting_spare_card"
+      }
+    },
+    {
+      "id": "banking77-train-0467",
+      "text": "Physical cards are what I need more of",
+      "expected": {
+        "intent": "getting_spare_card"
+      }
+    }
+  ],
+  "getting_virtual_card": [
+    {
+      "id": "banking77-train-0006",
+      "text": "how many virtual cards can i have, i want 8",
+      "expected": {
+        "intent": "getting_virtual_card"
+      }
+    },
+    {
+      "id": "banking77-train-0143",
+      "text": "What is the best way to get my virtual card?",
+      "expected": {
+        "intent": "getting_virtual_card"
+      }
+    },
+    {
+      "id": "banking77-train-0174",
+      "text": "When will I get a virtual card? I haven't gotten one yet",
+      "expected": {
+        "intent": "getting_virtual_card"
+      }
+    },
+    {
+      "id": "banking77-train-0197",
+      "text": "How do I get to the virtual cards?",
+      "expected": {
+        "intent": "getting_virtual_card"
+      }
+    }
+  ],
+  "lost_or_stolen_card": [
+    {
+      "id": "banking77-train-0106",
+      "text": "Someone stole my wallet with my card in it while vacationing in Spain. I really need my card blocked and a new one ordered.",
+      "expected": {
+        "intent": "lost_or_stolen_card"
+      }
+    },
+    {
+      "id": "banking77-train-0122",
+      "text": "Can you help me retrieve my card?",
+      "expected": {
+        "intent": "lost_or_stolen_card"
+      }
+    },
+    {
+      "id": "banking77-train-0232",
+      "text": "I believe that my card has been stolen!",
+      "expected": {
+        "intent": "lost_or_stolen_card"
+      }
+    },
+    {
+      "id": "banking77-train-0314",
+      "text": "I left my card at a restaurant and now its missing.",
+      "expected": {
+        "intent": "lost_or_stolen_card"
+      }
+    }
+  ],
+  "lost_or_stolen_phone": [
+    {
+      "id": "banking77-train-0020",
+      "text": "What do I do if my phone was stolen?",
+      "expected": {
+        "intent": "lost_or_stolen_phone"
+      }
+    },
+    {
+      "id": "banking77-train-0062",
+      "text": "My phone was stolen, what should I do?",
+      "expected": {
+        "intent": "lost_or_stolen_phone"
+      }
+    },
+    {
+      "id": "banking77-train-0215",
+      "text": "I'm currently not in possession of my phone, is it still possible to go about things normally without access to the app?",
+      "expected": {
+        "intent": "lost_or_stolen_phone"
+      }
+    },
+    {
+      "id": "banking77-train-0241",
+      "text": "Can I use the app without my phone?",
+      "expected": {
+        "intent": "lost_or_stolen_phone"
+      }
+    }
+  ],
+  "order_physical_card": [
+    {
+      "id": "banking77-train-0066",
+      "text": "Is a physical card also available",
+      "expected": {
+        "intent": "order_physical_card"
+      }
+    },
+    {
+      "id": "banking77-train-0136",
+      "text": "Can you tell me how do I get a card?",
+      "expected": {
+        "intent": "order_physical_card"
+      }
+    },
+    {
+      "id": "banking77-train-0155",
+      "text": "Can I get an actual card",
+      "expected": {
+        "intent": "order_physical_card"
+      }
+    },
+    {
+      "id": "banking77-train-0248",
+      "text": "What areas are cards delivered to?",
+      "expected": {
+        "intent": "order_physical_card"
+      }
+    }
+  ],
+  "passcode_forgotten": [
+    {
+      "id": "banking77-train-0078",
+      "text": "I can't remember my app code, can you reset it?",
+      "expected": {
+        "intent": "passcode_forgotten"
+      }
+    },
+    {
+      "id": "banking77-train-0117",
+      "text": "I happened to forget my password",
+      "expected": {
+        "intent": "passcode_forgotten"
+      }
+    },
+    {
+      "id": "banking77-train-0118",
+      "text": "I have forgotten my passcode",
+      "expected": {
+        "intent": "passcode_forgotten"
+      }
+    },
+    {
+      "id": "banking77-train-0266",
+      "text": "I would like to better understand why my pass-code is not working.",
+      "expected": {
+        "intent": "passcode_forgotten"
+      }
+    }
+  ],
+  "pending_card_payment": [
+    {
+      "id": "banking77-train-0084",
+      "text": "Why aren't my payment funds available to me?",
+      "expected": {
+        "intent": "pending_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0192",
+      "text": "What does it mean when a payment is pending?",
+      "expected": {
+        "intent": "pending_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0234",
+      "text": "It's been a few days since I've tried to pay a seller but the funds aren't going through. What is happening?",
+      "expected": {
+        "intent": "pending_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0254",
+      "text": "Why is my payment still pending?",
+      "expected": {
+        "intent": "pending_card_payment"
+      }
+    }
+  ],
+  "pending_cash_withdrawal": [
+    {
+      "id": "banking77-train-0011",
+      "text": "I have the cash already, my account still shows up as pending.  How can my account be still pending?",
+      "expected": {
+        "intent": "pending_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0028",
+      "text": "What does it mean when a cash withdrawal is pending?",
+      "expected": {
+        "intent": "pending_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0113",
+      "text": "What does a pending cash withdrawal mean?",
+      "expected": {
+        "intent": "pending_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0120",
+      "text": "Do you know when the withdrawal will show?",
+      "expected": {
+        "intent": "pending_cash_withdrawal"
+      }
+    }
+  ],
+  "pending_top_up": [
+    {
+      "id": "banking77-train-0239",
+      "text": "new customer and filling gas for the first time today, not working,",
+      "expected": {
+        "intent": "pending_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0299",
+      "text": "My top up is incomplete.",
+      "expected": {
+        "intent": "pending_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0333",
+      "text": "What does it mean if my top-up has not gone through?",
+      "expected": {
+        "intent": "pending_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0358",
+      "text": "When will my top up be applied?",
+      "expected": {
+        "intent": "pending_top_up"
+      }
+    }
+  ],
+  "pending_transfer": [
+    {
+      "id": "banking77-train-0170",
+      "text": "Hello. How long does it usually take to transfer money to another country? I've made sure all the information is correct, but the transfer still says that it's \"pending.\"",
+      "expected": {
+        "intent": "pending_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0460",
+      "text": "Why is my transfer pending when I already made it?",
+      "expected": {
+        "intent": "pending_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0561",
+      "text": "I have a transfer that is pending.",
+      "expected": {
+        "intent": "pending_transfer"
+      }
+    },
+    {
+      "id": "banking77-train-0566",
+      "text": "When will my transfer move out of pending stage?",
+      "expected": {
+        "intent": "pending_transfer"
+      }
+    }
+  ],
+  "pin_blocked": [
+    {
+      "id": "banking77-train-0038",
+      "text": "I was blocked by using the wrong pin too many times, can you help me?",
+      "expected": {
+        "intent": "pin_blocked"
+      }
+    },
+    {
+      "id": "banking77-train-0081",
+      "text": "I have exceeded the number of PIN attempts",
+      "expected": {
+        "intent": "pin_blocked"
+      }
+    },
+    {
+      "id": "banking77-train-0151",
+      "text": "After inputting the wrong pin too many times, can you now help me unblock my pin?",
+      "expected": {
+        "intent": "pin_blocked"
+      }
+    },
+    {
+      "id": "banking77-train-0198",
+      "text": "I cannot try my PIN anymore.",
+      "expected": {
+        "intent": "pin_blocked"
+      }
+    }
+  ],
+  "receiving_money": [
+    {
+      "id": "banking77-train-0158",
+      "text": "Will my employer be able to pay me with this service",
+      "expected": {
+        "intent": "receiving_money"
+      }
+    },
+    {
+      "id": "banking77-train-0173",
+      "text": "am i able to receive my salary this way?",
+      "expected": {
+        "intent": "receiving_money"
+      }
+    },
+    {
+      "id": "banking77-train-0231",
+      "text": "How can I receive money?",
+      "expected": {
+        "intent": "receiving_money"
+      }
+    },
+    {
+      "id": "banking77-train-0280",
+      "text": "Can I use a different currency with my salary?",
+      "expected": {
+        "intent": "receiving_money"
+      }
+    }
+  ],
+  "refund_not_showing_up": [
+    {
+      "id": "banking77-train-0097",
+      "text": "How come my refund hasn't appeared on my statement?",
+      "expected": {
+        "intent": "refund_not_showing_up"
+      }
+    },
+    {
+      "id": "banking77-train-0112",
+      "text": "I can't find my refund. Please help.",
+      "expected": {
+        "intent": "refund_not_showing_up"
+      }
+    },
+    {
+      "id": "banking77-train-0430",
+      "text": "Hi I'm waiting for a refund for an item I bought. I have contacted the merchant directly but had nothing back. Can you tell me whether or not you are able to refund me for the item?",
+      "expected": {
+        "intent": "refund_not_showing_up"
+      }
+    },
+    {
+      "id": "banking77-train-0501",
+      "text": "I've been waiting for a refund where is it?",
+      "expected": {
+        "intent": "refund_not_showing_up"
+      }
+    }
+  ],
+  "request_refund": [
+    {
+      "id": "banking77-train-0051",
+      "text": "Hello, I recently ordered an item and I need help with cancelling and processing a refund as soon as possible. It's very important that I get my refund quickly.",
+      "expected": {
+        "intent": "request_refund"
+      }
+    },
+    {
+      "id": "banking77-train-0060",
+      "text": "Do you give refunds?",
+      "expected": {
+        "intent": "request_refund"
+      }
+    },
+    {
+      "id": "banking77-train-0091",
+      "text": "I want to cancel a purchase",
+      "expected": {
+        "intent": "request_refund"
+      }
+    },
+    {
+      "id": "banking77-train-0365",
+      "text": "I need to have an item refunded.",
+      "expected": {
+        "intent": "request_refund"
+      }
+    }
+  ],
+  "reverted_card_payment": [
+    {
+      "id": "banking77-train-0065",
+      "text": "My payment was cancelled",
+      "expected": {
+        "intent": "reverted_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0348",
+      "text": "Why would a merchant revert my payment?",
+      "expected": {
+        "intent": "reverted_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0355",
+      "text": "I paid two weeks ago and just got refunded",
+      "expected": {
+        "intent": "reverted_card_payment"
+      }
+    },
+    {
+      "id": "banking77-train-0392",
+      "text": "Is it on purpose that my payment has been returned to my account?",
+      "expected": {
+        "intent": "reverted_card_payment"
+      }
+    }
+  ],
+  "supported_cards_and_currencies": [
+    {
+      "id": "banking77-train-0077",
+      "text": "What currencies do you accept to add money?",
+      "expected": {
+        "intent": "supported_cards_and_currencies"
+      }
+    },
+    {
+      "id": "banking77-train-0130",
+      "text": "With what currencies can I add money?",
+      "expected": {
+        "intent": "supported_cards_and_currencies"
+      }
+    },
+    {
+      "id": "banking77-train-0216",
+      "text": "What currencies do you accept for adding money?",
+      "expected": {
+        "intent": "supported_cards_and_currencies"
+      }
+    },
+    {
+      "id": "banking77-train-0259",
+      "text": "Can you tell me what currencies I can use to add money?",
+      "expected": {
+        "intent": "supported_cards_and_currencies"
+      }
+    }
+  ],
+  "terminate_account": [
+    {
+      "id": "banking77-train-0049",
+      "text": "I want to shut down my account as soon as possible.",
+      "expected": {
+        "intent": "terminate_account"
+      }
+    },
+    {
+      "id": "banking77-train-0087",
+      "text": "cancel my account",
+      "expected": {
+        "intent": "terminate_account"
+      }
+    },
+    {
+      "id": "banking77-train-0227",
+      "text": "Help me delete my account.  I am not satisfied with the service.",
+      "expected": {
+        "intent": "terminate_account"
+      }
+    },
+    {
+      "id": "banking77-train-0434",
+      "text": "your company is awful, i would like to delete my account please",
+      "expected": {
+        "intent": "terminate_account"
+      }
+    }
+  ],
+  "top_up_by_bank_transfer_charge": [
+    {
+      "id": "banking77-train-0037",
+      "text": "Will there be a charge for topping up by account with a SEPA transfer?",
+      "expected": {
+        "intent": "top_up_by_bank_transfer_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0159",
+      "text": "Does it cost anything to transfer money for a top-up?",
+      "expected": {
+        "intent": "top_up_by_bank_transfer_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0351",
+      "text": "How much would it cost me for a bank transfer to top up my account?",
+      "expected": {
+        "intent": "top_up_by_bank_transfer_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0397",
+      "text": "Is there a charge for receiving money?",
+      "expected": {
+        "intent": "top_up_by_bank_transfer_charge"
+      }
+    }
+  ],
+  "top_up_by_card_charge": [
+    {
+      "id": "banking77-train-0004",
+      "text": "Will you charge me for topping up with a European card?",
+      "expected": {
+        "intent": "top_up_by_card_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0015",
+      "text": "Is USD free to top up with a US card?",
+      "expected": {
+        "intent": "top_up_by_card_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0067",
+      "text": "What top up charges are there for US cards?",
+      "expected": {
+        "intent": "top_up_by_card_charge"
+      }
+    },
+    {
+      "id": "banking77-train-0072",
+      "text": "Do I get charged if I top up with my European bank card?",
+      "expected": {
+        "intent": "top_up_by_card_charge"
+      }
+    }
+  ],
+  "top_up_by_cash_or_cheque": [
+    {
+      "id": "banking77-train-0319",
+      "text": "I would like to use this cheque to top up.  Can you tell me how to do that?",
+      "expected": {
+        "intent": "top_up_by_cash_or_cheque"
+      }
+    },
+    {
+      "id": "banking77-train-0353",
+      "text": "Can I top-up by cheque?",
+      "expected": {
+        "intent": "top_up_by_cash_or_cheque"
+      }
+    },
+    {
+      "id": "banking77-train-0372",
+      "text": "can i deposit a check here?",
+      "expected": {
+        "intent": "top_up_by_cash_or_cheque"
+      }
+    },
+    {
+      "id": "banking77-train-0405",
+      "text": "How do I add cash to my account?",
+      "expected": {
+        "intent": "top_up_by_cash_or_cheque"
+      }
+    }
+  ],
+  "top_up_failed": [
+    {
+      "id": "banking77-train-0090",
+      "text": "Trouble with my top up",
+      "expected": {
+        "intent": "top_up_failed"
+      }
+    },
+    {
+      "id": "banking77-train-0260",
+      "text": "Why are you keeping my money from me by declining my card? What is going on?",
+      "expected": {
+        "intent": "top_up_failed"
+      }
+    },
+    {
+      "id": "banking77-train-0308",
+      "text": "There has been a red flag on my top up.",
+      "expected": {
+        "intent": "top_up_failed"
+      }
+    },
+    {
+      "id": "banking77-train-0310",
+      "text": "Hello, I trying to top up with my card today but it didn't work. When I tried last time it worked but today it isn't. Could you take a look at it for me?",
+      "expected": {
+        "intent": "top_up_failed"
+      }
+    }
+  ],
+  "top_up_limits": [
+    {
+      "id": "banking77-train-0001",
+      "text": "Do top-ups have limits?",
+      "expected": {
+        "intent": "top_up_limits"
+      }
+    },
+    {
+      "id": "banking77-train-0017",
+      "text": "Can I create my own top-up limit?",
+      "expected": {
+        "intent": "top_up_limits"
+      }
+    },
+    {
+      "id": "banking77-train-0046",
+      "text": "What is the maximum for top-ups?",
+      "expected": {
+        "intent": "top_up_limits"
+      }
+    },
+    {
+      "id": "banking77-train-0058",
+      "text": "How can I information on my limit for top-ups?",
+      "expected": {
+        "intent": "top_up_limits"
+      }
+    }
+  ],
+  "top_up_reverted": [
+    {
+      "id": "banking77-train-0007",
+      "text": "Hi, I have done a topup, but my money was reverted. Please look into this issue.",
+      "expected": {
+        "intent": "top_up_reverted"
+      }
+    },
+    {
+      "id": "banking77-train-0104",
+      "text": "I topped up and now my money is not there anymore! What happened to it?",
+      "expected": {
+        "intent": "top_up_reverted"
+      }
+    },
+    {
+      "id": "banking77-train-0145",
+      "text": "I put some money in my account the other day but now its gone? Why is this?",
+      "expected": {
+        "intent": "top_up_reverted"
+      }
+    },
+    {
+      "id": "banking77-train-0213",
+      "text": "When I top-up, the app reverts it.",
+      "expected": {
+        "intent": "top_up_reverted"
+      }
+    }
+  ],
+  "topping_up_by_card": [
+    {
+      "id": "banking77-train-0039",
+      "text": "Why was my card charged when topping off my balance but it's not showing up in my wallet balance?",
+      "expected": {
+        "intent": "topping_up_by_card"
+      }
+    },
+    {
+      "id": "banking77-train-0142",
+      "text": "show me how to top up",
+      "expected": {
+        "intent": "topping_up_by_card"
+      }
+    },
+    {
+      "id": "banking77-train-0311",
+      "text": "I attempted to top up using my card, but now the money just disappeared?",
+      "expected": {
+        "intent": "topping_up_by_card"
+      }
+    },
+    {
+      "id": "banking77-train-0336",
+      "text": "What steps do I do to transfer money using my credit card?",
+      "expected": {
+        "intent": "topping_up_by_card"
+      }
+    }
+  ],
+  "transaction_charged_twice": [
+    {
+      "id": "banking77-train-0025",
+      "text": "I have a duplicate payment on my account",
+      "expected": {
+        "intent": "transaction_charged_twice"
+      }
+    },
+    {
+      "id": "banking77-train-0054",
+      "text": "Hello, I was just went through my recent transaction on my bank account and I just noticed that I was charged twice at a place that ate at this past week. Can I get that second transaction removed from my account?",
+      "expected": {
+        "intent": "transaction_charged_twice"
+      }
+    },
+    {
+      "id": "banking77-train-0061",
+      "text": "Hello, I just checked my card transactions and saw that I was charged twice for a restaurant visit I did earlier this week. Is it possible to remove one of them and get my false paid money pack?",
+      "expected": {
+        "intent": "transaction_charged_twice"
+      }
+    },
+    {
+      "id": "banking77-train-0098",
+      "text": "What happens with the duplicate charge in my account?",
+      "expected": {
+        "intent": "transaction_charged_twice"
+      }
+    }
+  ],
+  "transfer_fee_charged": [
+    {
+      "id": "banking77-train-0009",
+      "text": "I transferred money, but I think I've been charged a fee for it?",
+      "expected": {
+        "intent": "transfer_fee_charged"
+      }
+    },
+    {
+      "id": "banking77-train-0135",
+      "text": "Why was my transfer charged a fee?",
+      "expected": {
+        "intent": "transfer_fee_charged"
+      }
+    },
+    {
+      "id": "banking77-train-0148",
+      "text": "Why is my transfer more expensive than I thought?",
+      "expected": {
+        "intent": "transfer_fee_charged"
+      }
+    },
+    {
+      "id": "banking77-train-0176",
+      "text": "I was charged a transfer fee, why is that?",
+      "expected": {
+        "intent": "transfer_fee_charged"
+      }
+    }
+  ],
+  "transfer_into_account": [
+    {
+      "id": "banking77-train-0029",
+      "text": "I need to transfer money to my account from another bank",
+      "expected": {
+        "intent": "transfer_into_account"
+      }
+    },
+    {
+      "id": "banking77-train-0133",
+      "text": "Help! My account doesn't show any funds. Is transferring funds an option I can use?",
+      "expected": {
+        "intent": "transfer_into_account"
+      }
+    },
+    {
+      "id": "banking77-train-0144",
+      "text": "I have zero dollars in my account. Can I submit additional funds via bank transfer?",
+      "expected": {
+        "intent": "transfer_into_account"
+      }
+    },
+    {
+      "id": "banking77-train-0188",
+      "text": "Can you please explain the topping up transfer process?",
+      "expected": {
+        "intent": "transfer_into_account"
+      }
+    }
+  ],
+  "transfer_not_received_by_recipient": [
+    {
+      "id": "banking77-train-0036",
+      "text": "How long does it take for the transfer to go through?",
+      "expected": {
+        "intent": "transfer_not_received_by_recipient"
+      }
+    },
+    {
+      "id": "banking77-train-0055",
+      "text": "Hi - I have made a transaction to my new landlord but unfortunately it shows on my end but not on the landlord's end. The numbers are correct. Can you confirm when that will go through?",
+      "expected": {
+        "intent": "transfer_not_received_by_recipient"
+      }
+    },
+    {
+      "id": "banking77-train-0329",
+      "text": "How long will a transaction to a friend take?",
+      "expected": {
+        "intent": "transfer_not_received_by_recipient"
+      }
+    },
+    {
+      "id": "banking77-train-0368",
+      "text": "Money is not in recipients account.",
+      "expected": {
+        "intent": "transfer_not_received_by_recipient"
+      }
+    }
+  ],
+  "transfer_timing": [
+    {
+      "id": "banking77-train-0056",
+      "text": "When can I expect my transfer to reach my account?",
+      "expected": {
+        "intent": "transfer_timing"
+      }
+    },
+    {
+      "id": "banking77-train-0092",
+      "text": "How long will it take the money to appear in my account?",
+      "expected": {
+        "intent": "transfer_timing"
+      }
+    },
+    {
+      "id": "banking77-train-0200",
+      "text": "When will a transfer from the US post?",
+      "expected": {
+        "intent": "transfer_timing"
+      }
+    },
+    {
+      "id": "banking77-train-0389",
+      "text": "How long does it take for a transfer to show up in my account?",
+      "expected": {
+        "intent": "transfer_timing"
+      }
+    }
+  ],
+  "unable_to_verify_identity": [
+    {
+      "id": "banking77-train-0002",
+      "text": "What do I need to bring for identification?",
+      "expected": {
+        "intent": "unable_to_verify_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0014",
+      "text": "My identity isn't being accepted, what should I do?",
+      "expected": {
+        "intent": "unable_to_verify_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0050",
+      "text": "I am having trouble with the app recognizing me.",
+      "expected": {
+        "intent": "unable_to_verify_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0096",
+      "text": "The app won't identify me.",
+      "expected": {
+        "intent": "unable_to_verify_identity"
+      }
+    }
+  ],
+  "verify_my_identity": [
+    {
+      "id": "banking77-train-0094",
+      "text": "I need to verify my identity. How do I do that?",
+      "expected": {
+        "intent": "verify_my_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0207",
+      "text": "what documentation do I need for the identity check?",
+      "expected": {
+        "intent": "verify_my_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0230",
+      "text": "What will I need to verify my identity",
+      "expected": {
+        "intent": "verify_my_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0327",
+      "text": "What are acceptable documents to prove my identity?",
+      "expected": {
+        "intent": "verify_my_identity"
+      }
+    }
+  ],
+  "verify_source_of_funds": [
+    {
+      "id": "banking77-train-0103",
+      "text": "I would like to know where the funds are at.",
+      "expected": {
+        "intent": "verify_source_of_funds"
+      }
+    },
+    {
+      "id": "banking77-train-0105",
+      "text": "I need to know where my funds come from.",
+      "expected": {
+        "intent": "verify_source_of_funds"
+      }
+    },
+    {
+      "id": "banking77-train-0132",
+      "text": "Can I see the source of my available money?",
+      "expected": {
+        "intent": "verify_source_of_funds"
+      }
+    },
+    {
+      "id": "banking77-train-0147",
+      "text": "How can I find out where the funds are flow?",
+      "expected": {
+        "intent": "verify_source_of_funds"
+      }
+    }
+  ],
+  "verify_top_up": [
+    {
+      "id": "banking77-train-0209",
+      "text": "How do I verify the top-up?",
+      "expected": {
+        "intent": "verify_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0346",
+      "text": "Where can I find the verification code for the card top-up?",
+      "expected": {
+        "intent": "verify_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0480",
+      "text": "I am having trouble finding the top-up card verification code.",
+      "expected": {
+        "intent": "verify_top_up"
+      }
+    },
+    {
+      "id": "banking77-train-0550",
+      "text": "I just want to top-up, why do I need to verify anything?",
+      "expected": {
+        "intent": "verify_top_up"
+      }
+    }
+  ],
+  "virtual_card_not_working": [
+    {
+      "id": "banking77-train-0012",
+      "text": "My disposable virtual card isn't working.",
+      "expected": {
+        "intent": "virtual_card_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0184",
+      "text": "My virtual car is not working.",
+      "expected": {
+        "intent": "virtual_card_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0185",
+      "text": "Why was my virtual card rejected?",
+      "expected": {
+        "intent": "virtual_card_not_working"
+      }
+    },
+    {
+      "id": "banking77-train-0211",
+      "text": "Why won't my virtual card work?",
+      "expected": {
+        "intent": "virtual_card_not_working"
+      }
+    }
+  ],
+  "visa_or_mastercard": [
+    {
+      "id": "banking77-train-0008",
+      "text": "Do I have a Visa card as an option?",
+      "expected": {
+        "intent": "visa_or_mastercard"
+      }
+    },
+    {
+      "id": "banking77-train-0035",
+      "text": "I need a Visa card",
+      "expected": {
+        "intent": "visa_or_mastercard"
+      }
+    },
+    {
+      "id": "banking77-train-0041",
+      "text": "Given a choice, I'd rather have Mastercard.",
+      "expected": {
+        "intent": "visa_or_mastercard"
+      }
+    },
+    {
+      "id": "banking77-train-0272",
+      "text": "Is there a way I can have a mastercard?",
+      "expected": {
+        "intent": "visa_or_mastercard"
+      }
+    }
+  ],
+  "why_verify_identity": [
+    {
+      "id": "banking77-train-0003",
+      "text": "Can I use my account now, even though my identity verification has not gone through yet?",
+      "expected": {
+        "intent": "why_verify_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0238",
+      "text": "Why is it important to verify my identity?",
+      "expected": {
+        "intent": "why_verify_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0415",
+      "text": "Should I complete my security verification before I can use my account?",
+      "expected": {
+        "intent": "why_verify_identity"
+      }
+    },
+    {
+      "id": "banking77-train-0622",
+      "text": "Why does my identity need to be verified?",
+      "expected": {
+        "intent": "why_verify_identity"
+      }
+    }
+  ],
+  "wrong_amount_of_cash_received": [
+    {
+      "id": "banking77-train-0080",
+      "text": "How can I request cash back? The ATM gave me the wrong amount that I've been charged though...",
+      "expected": {
+        "intent": "wrong_amount_of_cash_received"
+      }
+    },
+    {
+      "id": "banking77-train-0108",
+      "text": "Why didn't I get the amount I requested at the ATM?",
+      "expected": {
+        "intent": "wrong_amount_of_cash_received"
+      }
+    },
+    {
+      "id": "banking77-train-0138",
+      "text": "The ATM I'm standing in front of only gave me 10 pounds rather than the 30 pounds I wanted. The app shows I took out 30 pounds also. What do I need to do to fix this?",
+      "expected": {
+        "intent": "wrong_amount_of_cash_received"
+      }
+    },
+    {
+      "id": "banking77-train-0218",
+      "text": "I was not distributed all of cash that I requested",
+      "expected": {
+        "intent": "wrong_amount_of_cash_received"
+      }
+    }
+  ],
+  "wrong_exchange_rate_for_cash_withdrawal": [
+    {
+      "id": "banking77-train-0100",
+      "text": "The exchange rate for my withdrawal was wrong.",
+      "expected": {
+        "intent": "wrong_exchange_rate_for_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0162",
+      "text": "Someone may have made an error in figuring out the rate of exchange.  I should have received more cash than I did on my most recent withdrawal.",
+      "expected": {
+        "intent": "wrong_exchange_rate_for_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0206",
+      "text": "I draw out money from your ATM during holidays, and was charged insanely. I wouldn't have done it, if i had a little sense about the shocking charges.",
+      "expected": {
+        "intent": "wrong_exchange_rate_for_cash_withdrawal"
+      }
+    },
+    {
+      "id": "banking77-train-0463",
+      "text": "Can I withdraw money in my hometown currency while on holiday without any additional fees?",
+      "expected": {
+        "intent": "wrong_exchange_rate_for_cash_withdrawal"
+      }
+    }
+  ]
+}

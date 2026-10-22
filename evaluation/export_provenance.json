@@ -1,0 +1,740 @@
+{
+  "files": [
+    {
+      "source": "src/fireworks_lab/__init__.py",
+      "published": "src/fireworks_lab/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "src/fireworks_lab/banking77.py",
+      "published": "src/fireworks_lab/banking77.py",
+      "source_sha256": "4bfb5ab3043e1b75d8c41d50b1a94e06d1253de48ee41b42eb9ea17a97212cd5",
+      "published_sha256": "bad7bdf10466442effdd7059ebd6f3ae3f53b8f657c7832ed9fa9aca0511d325",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/banking77_client.py",
+      "published": "src/fireworks_lab/banking77_client.py",
+      "source_sha256": "d849997cb6833985a8bc15e4e22507d1bcaab59e7fe80444c8a5b6c522e405e4",
+      "published_sha256": "0e1b52bfb6c605435cb501af9137df58a14f68cf60bb0ea0a894f076042526bc",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/banking77_compare.py",
+      "published": "src/fireworks_lab/banking77_compare.py",
+      "source_sha256": "e8dd379a9616972ecc9557c748b7fedd236ce239e61fd4feb8d7e487714a1631",
+      "published_sha256": "5ae1ed26b930481471449147587ef8a8445280c1f8797b18f9318f7b48db33cf",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/banking77_definitions.py",
+      "published": "src/fireworks_lab/banking77_definitions.py",
+      "source_sha256": "bf3e4a22e55c8e8485c5272544f8609ccc30b7e6cb4bef0c82ab9d935b2a24fe",
+      "published_sha256": "bf3e4a22e55c8e8485c5272544f8609ccc30b7e6cb4bef0c82ab9d935b2a24fe",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "src/fireworks_lab/banking77_evaluate.py",
+      "published": "src/fireworks_lab/banking77_evaluate.py",
+      "source_sha256": "d056b55898118949e0b05aad500b6478d7741795986133dca568bf4063707132",
+      "published_sha256": "38eab337926a73bcb3b0d462b35e3b546c9eb422c1a957261dd1291f6bf5f640",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/banking77_prepare.py",
+      "published": "src/fireworks_lab/banking77_prepare.py",
+      "source_sha256": "659663bffbf70cad29634d76ed9950db0d662988e8a40042cb2bdfb650eaa08f",
+      "published_sha256": "b8fd500fd6cffb3222e332427928f0bca2c7cef619699d46d3ce2485229d514c",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/banking77_prompt_experiment.py",
+      "published": "src/fireworks_lab/banking77_prompt_experiment.py",
+      "source_sha256": "0cc4ebe3e8e3b1a35d653356d3bdb45103d8d8ef8a54a71abd7de0cdc7466a50",
+      "published_sha256": "26b6b7be3966ecde5fbb6852b70dc8e95491b1e926eb1ac9d3408ec8ca253e04",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained. Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/banking77_run.py",
+      "published": "src/fireworks_lab/banking77_run.py",
+      "source_sha256": "2a372e84fe17e01d1fc4b25aa45823178dc6979a46f084f59a3ea3d9a8af88d2",
+      "published_sha256": "1cbd94e3710eb2be415c97975958a84d1330038d1fcb0b931475a78a1dc01c9f",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/benchmark.py",
+      "published": "src/fireworks_lab/benchmark.py",
+      "source_sha256": "d346d1b6337d0668fb8af663177e7509b890c6f7a8e6ca3b8b4846aa236b9dea",
+      "published_sha256": "e92677337d0ef3a28ed89b3c0ec9f4b550c23285b41686e8f6f31cf93e280d8e",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/client.py",
+      "published": "src/fireworks_lab/client.py",
+      "source_sha256": "7044f8fe5d5d09031a177dc70e0bbda0b39ea6365f364f9276f6350869e44deb",
+      "published_sha256": "13168fc7d5bb2e37432aa9499de8efe1ed36bbb9c9db80f7bc14dac9a866ff72",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/compare.py",
+      "published": "src/fireworks_lab/compare.py",
+      "source_sha256": "8940e94e25ebffdd253c5798832f38050c83e9b372be15ee22e6a8560c216847",
+      "published_sha256": "17e4ced37dcd5d37c744a4026e25cc1aaab662d3f1f78ede38772de545f1cd37",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/dataset.py",
+      "published": "src/fireworks_lab/dataset.py",
+      "source_sha256": "9bf75107e299b46e8d17493d2471e416ec74f8971e23cfac4569cc58cba4a253",
+      "published_sha256": "b58e217619f26cae67c61e84573040fc778b34c2fac9905887a688fc6a953c98",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/evaluate.py",
+      "published": "src/fireworks_lab/evaluate.py",
+      "source_sha256": "cc7e836662bd562141220444f63862fdefa24bfc688ca635fa39966cf8ccea81",
+      "published_sha256": "f8b4379b366e7eb597b12a74b347135c07dd0b0abe2cc88fb75d8e25cef02bad",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/failure_analysis.py",
+      "published": "src/fireworks_lab/failure_analysis.py",
+      "source_sha256": "4556b106103e1063e4a8daa0d6636540eadd7993b83fb82604a698d3dfa58e48",
+      "published_sha256": "4556b106103e1063e4a8daa0d6636540eadd7993b83fb82604a698d3dfa58e48",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "src/fireworks_lab/io_utils.py",
+      "published": "src/fireworks_lab/io_utils.py",
+      "source_sha256": "bbd2650cc6d42fee8f377552598bd7ee049dc979e427dcec183f742b7798d2e4",
+      "published_sha256": "dfdbce3d5ca05eaec5f952aab6d8fb0a81155f0b72d8cac22ba13ab6c48d7402",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/metrics.py",
+      "published": "src/fireworks_lab/metrics.py",
+      "source_sha256": "1a432be7e53338ed3c83b5265d5525a408cf97a7051c77e73c70b417cef758a2",
+      "published_sha256": "1ce1c543dd4a40c58ffbf085a3e48e617ed04bbddbc789fd7b11f777e6a09538",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "src/fireworks_lab/policy.py",
+      "published": "src/fireworks_lab/policy.py",
+      "source_sha256": "0f1352a08dcd73988c9fc52f222f9e7ec9b4975662d14c376d115c8274b034e6",
+      "published_sha256": "0f1352a08dcd73988c9fc52f222f9e7ec9b4975662d14c376d115c8274b034e6",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "src/fireworks_lab/prompts.py",
+      "published": "src/fireworks_lab/prompts.py",
+      "source_sha256": "73423b3085c9519796a4dbf9e99b122d7ef9cea92c7f6d3ab247cefdc99a7b40",
+      "published_sha256": "73423b3085c9519796a4dbf9e99b122d7ef9cea92c7f6d3ab247cefdc99a7b40",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "src/fireworks_lab/run_inference.py",
+      "published": "src/fireworks_lab/run_inference.py",
+      "source_sha256": "d5fe4f9101dce006821ca2d9c9278efa53088b4f15148b44ae89a4e139a0c352",
+      "published_sha256": "d5fe4f9101dce006821ca2d9c9278efa53088b4f15148b44ae89a4e139a0c352",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "src/fireworks_lab/schemas.py",
+      "published": "src/fireworks_lab/schemas.py",
+      "source_sha256": "e399ac1a86d7e7180f2f1febf948eda55e750c9fc6819942c075bcf9e50c11ae",
+      "published_sha256": "e399ac1a86d7e7180f2f1febf948eda55e750c9fc6819942c075bcf9e50c11ae",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "src/fireworks_lab/training_export.py",
+      "published": "src/fireworks_lab/training_export.py",
+      "source_sha256": "ac3a23c9f3968cd98cce7026638c62824fc1d3ccc92a060e0370b510516a1e38",
+      "published_sha256": "ac3a23c9f3968cd98cce7026638c62824fc1d3ccc92a060e0370b510516a1e38",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_banking77.py",
+      "published": "tests/test_banking77.py",
+      "source_sha256": "9a2c923e5793d1f80a2c1129d7e353841fe010d6ad9fc164538bed29cce322e3",
+      "published_sha256": "66307e89f632e440bf044530c834d85b0913a0ce5e191852407c02920e6d9289",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "tests/test_banking77_client.py",
+      "published": "tests/test_banking77_client.py",
+      "source_sha256": "3c4b3b4abc996a590c827f99dca9208d5016bf6e1c0c00bea509bce3c7e7b6b1",
+      "published_sha256": "70551ca979e5d78a175714111d338fb7383643fb5e0eee049ccf5f39c0b24995",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "tests/test_banking77_prepare.py",
+      "published": "tests/test_banking77_prepare.py",
+      "source_sha256": "2f2ba4b2c1c7e4c1fb44afa196254cc354ca1e159028aaf0b9d094d9b531609f",
+      "published_sha256": "2f2ba4b2c1c7e4c1fb44afa196254cc354ca1e159028aaf0b9d094d9b531609f",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_banking77_prompt_experiment.py",
+      "published": "tests/test_banking77_prompt_experiment.py",
+      "source_sha256": "aab210e2d2cc5054a41991b4829eaf05c5efbf94f3bee782fbcf32910efdb430",
+      "published_sha256": "aab210e2d2cc5054a41991b4829eaf05c5efbf94f3bee782fbcf32910efdb430",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_banking77_prompt_runner.py",
+      "published": "tests/test_banking77_prompt_runner.py",
+      "source_sha256": "ca3107838b2b6b7a98ac1e4e59b7f1a6434261df799964f02b79670b0ad171a8",
+      "published_sha256": "ca3107838b2b6b7a98ac1e4e59b7f1a6434261df799964f02b79670b0ad171a8",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_banking77_run.py",
+      "published": "tests/test_banking77_run.py",
+      "source_sha256": "1301558264e3a613eabc53355681c557a67239d1df45c85f479615b122a8201e",
+      "published_sha256": "1301558264e3a613eabc53355681c557a67239d1df45c85f479615b122a8201e",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_benchmark.py",
+      "published": "tests/test_benchmark.py",
+      "source_sha256": "22cb6945f42608957f4531fb83f676057f0c57962493c76c6bd978abd0b21128",
+      "published_sha256": "22cb6945f42608957f4531fb83f676057f0c57962493c76c6bd978abd0b21128",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_client.py",
+      "published": "tests/test_client.py",
+      "source_sha256": "62064b5c625e5c24233a61c6107a3fd9056f01d4454f3e4bc41148204a775f81",
+      "published_sha256": "9f1804a7d5bdbc8061e4d25e749306436927ef354f959ee5b827085e78971eeb",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "tests/test_dataset.py",
+      "published": "tests/test_dataset.py",
+      "source_sha256": "35b469e067cfc288dd09de3483c6850157784fbc48c6594859391c525ea08b24",
+      "published_sha256": "2e1e3314dda1f01222adb0205b73cbff71baad4fc82b93eb65e80045b75774d3",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "tests/test_failure_analysis.py",
+      "published": "tests/test_failure_analysis.py",
+      "source_sha256": "dfbf940149630e8d16fbf1537266b4ea947a2c58d994c621076c8f1453936d34",
+      "published_sha256": "dfbf940149630e8d16fbf1537266b4ea947a2c58d994c621076c8f1453936d34",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_metrics.py",
+      "published": "tests/test_metrics.py",
+      "source_sha256": "52fc555c01482569e974fc74acef687587bf75bd54ab24d040a4afa231b738dc",
+      "published_sha256": "52fc555c01482569e974fc74acef687587bf75bd54ab24d040a4afa231b738dc",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_prompts.py",
+      "published": "tests/test_prompts.py",
+      "source_sha256": "30ffcca62d2580f568e802d7998582bab01dc97fda03905a1d0efee650236363",
+      "published_sha256": "30ffcca62d2580f568e802d7998582bab01dc97fda03905a1d0efee650236363",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_review_regressions.py",
+      "published": "tests/test_review_regressions.py",
+      "source_sha256": "b7972d9068272ae40d22cf33dea310a8988795cb92d5debe8c72b868e93b0b44",
+      "published_sha256": "6ef78599ae1ec954b163509b32ae6966ea1154538215e1ccbdaccb95f74f82da",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "tests/test_schemas.py",
+      "published": "tests/test_schemas.py",
+      "source_sha256": "f6d3d7e98b35e4e389ba956c94101790f7cfd7587aa88396b3e72d2d93845bf4",
+      "published_sha256": "f6d3d7e98b35e4e389ba956c94101790f7cfd7587aa88396b3e72d2d93845bf4",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "tests/test_training_export.py",
+      "published": "tests/test_training_export.py",
+      "source_sha256": "683a5fdc7ed80922a12e6343505c65ed73df00f9eac494f6e33953d4f393738f",
+      "published_sha256": "683a5fdc7ed80922a12e6343505c65ed73df00f9eac494f6e33953d4f393738f",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "pyproject.toml",
+      "published": "pyproject.toml",
+      "source_sha256": "22601428bb501fb9f7139f6b78dbff94f70073cfb47dd32b0ae7ac4099dabf3b",
+      "published_sha256": "a13312a73dbd5ece05132e793ccd25f1bf4d7bbc80ba61140c73397cc58f3fc3",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "uv.lock",
+      "published": "uv.lock",
+      "source_sha256": "2af98c5a3ff1a8a35f5d106865b19068eb6a927ae40f781fab3911da58378dc7",
+      "published_sha256": "4ce656c9b29bb69a10a82afe8f87f57819f303045dd133b0868cf5f70d689ca9",
+      "transformation": "Byte-for-byte copy Public-only packaging metadata and formatting/lint cleanup; task labels and scoring behavior retained."
+    },
+    {
+      "source": "data/banking77/dev.jsonl",
+      "published": "data/banking77/dev.jsonl",
+      "source_sha256": "1a05f7b47784b74a69a0532e6224d47d3e29b9f0d6f0f251aba71e53b3ccb677",
+      "published_sha256": "1a05f7b47784b74a69a0532e6224d47d3e29b9f0d6f0f251aba71e53b3ccb677",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/banking77/manifest.json",
+      "published": "data/banking77/manifest.json",
+      "source_sha256": "ee75aec003f23df423ccda7b26c64a86a7acd443ef7adbf69c99b92f47bd4b7e",
+      "published_sha256": "ee75aec003f23df423ccda7b26c64a86a7acd443ef7adbf69c99b92f47bd4b7e",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/banking77/raw/test.csv",
+      "published": "data/banking77/raw/test.csv",
+      "source_sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+      "published_sha256": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/banking77/raw/train.csv",
+      "published": "data/banking77/raw/train.csv",
+      "source_sha256": "b06e26ac675513959a63135f11b94ea7786ed02da65db93a5650d8838cbc664b",
+      "published_sha256": "b06e26ac675513959a63135f11b94ea7786ed02da65db93a5650d8838cbc664b",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/banking77/reserve.jsonl",
+      "published": "data/banking77/reserve.jsonl",
+      "source_sha256": "4c9d9f9680d222ecd47e3e1ff5c2a43a1f60e4d2707487a63ba8562828ab1503",
+      "published_sha256": "4c9d9f9680d222ecd47e3e1ff5c2a43a1f60e4d2707487a63ba8562828ab1503",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/banking77/sft_train.jsonl",
+      "published": "data/banking77/sft_train.jsonl",
+      "source_sha256": "08d7e2fe2b5bb343e22acb90a3e052825c9741507bbf79ec51206f80ffb5a3df",
+      "published_sha256": "08d7e2fe2b5bb343e22acb90a3e052825c9741507bbf79ec51206f80ffb5a3df",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/banking77/test.jsonl",
+      "published": "data/banking77/test.jsonl",
+      "source_sha256": "55fcdbaff137ef60de5e7b11b0850030ee02c3835e9ad6893fbdd48c1510800a",
+      "published_sha256": "55fcdbaff137ef60de5e7b11b0850030ee02c3835e9ad6893fbdd48c1510800a",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/banking77/train.jsonl",
+      "published": "data/banking77/train.jsonl",
+      "source_sha256": "2adb56a0a6b2b5aed154794682af3118d245c026994f4d4f86c02add1fe71489",
+      "published_sha256": "2adb56a0a6b2b5aed154794682af3118d245c026994f4d4f86c02add1fe71489",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/eval.jsonl",
+      "published": "data/eval.jsonl",
+      "source_sha256": "94327625e408d12068ea6263d4f9ae18c66e5d8054fc8743ce8acdc1f515b45f",
+      "published_sha256": "94327625e408d12068ea6263d4f9ae18c66e5d8054fc8743ce8acdc1f515b45f",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/sft_train.jsonl",
+      "published": "data/sft_train.jsonl",
+      "source_sha256": "08361e524ac35ac333b71457d0e7d0800b5014bce12a7ff4a879db70ef6394da",
+      "published_sha256": "08361e524ac35ac333b71457d0e7d0800b5014bce12a7ff4a879db70ef6394da",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "data/train.jsonl",
+      "published": "data/train.jsonl",
+      "source_sha256": "b905bb74b99ac79d0fc1ee10c9d183514c579c431b787b655b685ac12d004a78",
+      "published_sha256": "b905bb74b99ac79d0fc1ee10c9d183514c579c431b787b655b685ac12d004a78",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/base_v0.jsonl",
+      "published": "evaluation/runs/base_v0.jsonl",
+      "source_sha256": "14957cab05105efc2a2602afcf93957a93900a6afa7c7c938cbc59319a5924ad",
+      "published_sha256": "e2b4cd67519fb5de5a5d533976f5e1dcf90b7ec4443bb2d03373c23f8cbb6836",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/base_v1.jsonl",
+      "published": "evaluation/runs/base_v1.jsonl",
+      "source_sha256": "74b252f72c1c83c398283f34c1c84ff95181a6c6ecc15f2d3c0fdd1090de4729",
+      "published_sha256": "673b2e3f949695d5948826559941d4db1236091c5a9eb1373f869f6e14846e6a",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/tuned_v1_warm.jsonl",
+      "published": "evaluation/runs/tuned_v1_warm.jsonl",
+      "source_sha256": "b173a637eee6497841eee38d5b7772d9cd232f30e52b0baf39599c1b11b8b9ca",
+      "published_sha256": "25e0659410a9af0e1cdbfad20e710f8355ae4d1ab69c3e540dafd67917d02b88",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/base_v2.jsonl",
+      "published": "evaluation/runs/base_v2.jsonl",
+      "source_sha256": "82d503e0f941f42d86c333b4aad3d8d2adef4d09bb76772e87115d6528b70248",
+      "published_sha256": "4dd5b1583786fe5ba60a1a68576c0a2b9166115630d9890e9118d68e88066a4b",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_qwen4b_base_test.jsonl",
+      "published": "evaluation/runs/banking77_qwen4b_base_test.jsonl",
+      "source_sha256": "2e0fd8e1953655bd027f4b1a227729072e2bdacb28eb7c8d3ca063698f21a699",
+      "published_sha256": "d236104310682a1509cb721b9ef5c7b456b4a7f6f7a30ca05becdac10e35d1ec",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_qwen4b_tuned_test.jsonl",
+      "published": "evaluation/runs/banking77_qwen4b_tuned_test.jsonl",
+      "source_sha256": "7a0d2d9af42524aa3a260f6d63101284ceba3c3e24b41bf6dcfff1f5f4ead603",
+      "published_sha256": "e6697c18a806e622b343724083215f63da4d0a5ff0e4815cc7573b94cf10db2a",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/base_original_dev.jsonl",
+      "published": "evaluation/runs/followup/base_original_dev.jsonl",
+      "source_sha256": "b89d58ddd16373218a0baa1eaf0f75723f0cd60b406f18026680a67327531d36",
+      "published_sha256": "06b969622e5393225ebcbba1452b3dda4e92f0a3978a676481d7dcf3ab65ee9e",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/base_definitions-v1_dev.jsonl",
+      "published": "evaluation/runs/followup/base_definitions-v1_dev.jsonl",
+      "source_sha256": "6f765666ac5d0255962a85f0c7bfc47fe0430e2b85c9f896144141aeebcc2927",
+      "published_sha256": "bfd2298b06b97ed5c3b6e85104e8a51a7bd08d06c75cf0ee7388d4d1154e5d14",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/tuned_original_dev.jsonl",
+      "published": "evaluation/runs/followup/tuned_original_dev.jsonl",
+      "source_sha256": "69116bb4859418619c701e0653a85c2f85334eae8ab1f72c0b6f7cd4c7427d85",
+      "published_sha256": "e49df7521671cb1f88edb7bac8a2d64cd2e37400218e458c116c642100abbfea",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/tuned_definitions-v1_dev.jsonl",
+      "published": "evaluation/runs/followup/tuned_definitions-v1_dev.jsonl",
+      "source_sha256": "9910f53f112aa31a547c70145a4b86d87c637fd43785b36ed29f824c0fd6355b",
+      "published_sha256": "4e357f6c22e241ed9ae035d536c43732293ea418562ad688e85ddd74694d5a9e",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/base_original_confirmation.jsonl",
+      "published": "evaluation/runs/followup/base_original_confirmation.jsonl",
+      "source_sha256": "d6c38603e6ee80393d619d7c4a89c20775ae613f6e71f702d71161ce7c969b5c",
+      "published_sha256": "fe950d9195c57c70c8fb7054befda21acda1462ee4f8709447b2373e26bc6ba0",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/base_definitions-v1_confirmation.jsonl",
+      "published": "evaluation/runs/followup/base_definitions-v1_confirmation.jsonl",
+      "source_sha256": "a6e24023060e3d2dfccb6202779831466fa3025f79c97d0733c00a5dbb191949",
+      "published_sha256": "b185aecb9f11eec2f559e19a879fa3c4761bb830f15313443add3d60901dec75",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/tuned_original_confirmation.jsonl",
+      "published": "evaluation/runs/followup/tuned_original_confirmation.jsonl",
+      "source_sha256": "e2f596378d8d011debc77d8e479aba30879f583e6da216f6d946ab9d4f3dad81",
+      "published_sha256": "786f59bf3fb8a91c6583cf4986eeac4b6651b7bf382f326454b7d6540eb2e8e7",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/tuned_definitions-v1_confirmation.jsonl",
+      "published": "evaluation/runs/followup/tuned_definitions-v1_confirmation.jsonl",
+      "source_sha256": "316242cf47a323c24ed8bae8f0410922191321486f0ad14fe988f70d74923009",
+      "published_sha256": "0bec92226d9b15ceb2e4cc331533aab3679145e8898822d48e7400bf88572204",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/confirmation_input.jsonl",
+      "published": "evaluation/inputs/confirmation_input.jsonl",
+      "source_sha256": "1789d6497b1c22cbf3633ef77b7fd12f1e0f83fa05b4def51dd48f80ebcd7eab",
+      "published_sha256": "1789d6497b1c22cbf3633ef77b7fd12f1e0f83fa05b4def51dd48f80ebcd7eab",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/dev_input.jsonl",
+      "published": "evaluation/inputs/dev_input.jsonl",
+      "source_sha256": "1a05f7b47784b74a69a0532e6224d47d3e29b9f0d6f0f251aba71e53b3ccb677",
+      "published_sha256": "1a05f7b47784b74a69a0532e6224d47d3e29b9f0d6f0f251aba71e53b3ccb677",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/warmup_input.jsonl",
+      "published": "evaluation/inputs/warmup_input.jsonl",
+      "source_sha256": "01a71f355f30b613143eaeee12368c3ce9f0e99d7010e76c4d56b57bbffafa44",
+      "published_sha256": "01a71f355f30b613143eaeee12368c3ce9f0e99d7010e76c4d56b57bbffafa44",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/prompt_original.txt",
+      "published": "evaluation/prompts/prompt_original.txt",
+      "source_sha256": "bec33ab0dd910d7b527ff880797ee0a7bf16d28757f21ac84fb3973de403184d",
+      "published_sha256": "bec33ab0dd910d7b527ff880797ee0a7bf16d28757f21ac84fb3973de403184d",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/prompt_definitions-v1.txt",
+      "published": "evaluation/prompts/prompt_definitions-v1.txt",
+      "source_sha256": "851588bfb246c8daeadccc83d8bf157073b2be87de645c054c4ab7763f373d37",
+      "published_sha256": "851588bfb246c8daeadccc83d8bf157073b2be87de645c054c4ab7763f373d37",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_base_dev.jsonl",
+      "published": "experiments/runs/banking77_base_dev.jsonl",
+      "source_sha256": "e06df8d0ead9a870e1e89fa85858184b14557a4625a0d1e60a10c4d0456f6952",
+      "published_sha256": "dd743066ea4b4f75188ec1f5b29a1c93b38beffe1c9a09598afd229c429eec56",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_base_dev_smoke.jsonl",
+      "published": "experiments/runs/banking77_base_dev_smoke.jsonl",
+      "source_sha256": "5a6f37f3b3f21ff630dacabb64b492f0b187cb78b30c81b0863f000aacdc7266",
+      "published_sha256": "bffb97dd7e8b8cdf1c5bd3cba2496fd9a3364f90261b76501ffe5a22d24966bc",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_base_dev_smoke_nothink.jsonl",
+      "published": "experiments/runs/banking77_base_dev_smoke_nothink.jsonl",
+      "source_sha256": "a70d99a190d2c57bba60647946d1d2ad4fc328cc629a95642d88e06951ab4b16",
+      "published_sha256": "07a6eeb2933ccc26ee5bb45c5b3047eab131d74351fa6facd1c13a5baba22bd0",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_ministral3b_base_dev.jsonl",
+      "published": "experiments/runs/banking77_ministral3b_base_dev.jsonl",
+      "source_sha256": "9b9be760c41943738d6924b4ae1b0b03bcd5d5b94f03d89c39ae8b16ef739cf3",
+      "published_sha256": "b71d86ad2dbcaa42b65d547f546f94b5b403bca154c7f3f8f2c879302033bf71",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_ministral3b_dev_smoke.jsonl",
+      "published": "experiments/runs/banking77_ministral3b_dev_smoke.jsonl",
+      "source_sha256": "1d0ac52fb4d679ecb4612e28e0dac5e7d993b45da81d908a8be38c326740ef2f",
+      "published_sha256": "058b587d86a587e58af7efad98841ccf728c1414bcd2b0c897774218c76c599a",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_ministral3b_serverless_probe.jsonl",
+      "published": "experiments/runs/banking77_ministral3b_serverless_probe.jsonl",
+      "source_sha256": "70052768ccf3bd4a3d73a64e00254e80bfd051718cb7f3d8efcfe1b3d11b6d50",
+      "published_sha256": "6a7a02310ee5d5c1b58b7817ca7de5b04aedbafbfca8e4cc7fc7a72baeeb2179",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_qwen4b_base_dev.jsonl",
+      "published": "experiments/runs/banking77_qwen4b_base_dev.jsonl",
+      "source_sha256": "484686580131831f16b8c3cd6274b6c785cb8b654c231aaa6fa887eff28c89cd",
+      "published_sha256": "3406b515930e9c106f01debfcaa0d9ffe4560f52ff153c3dfb602a0c2a7aaa5a",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_qwen4b_base_test_warmup.jsonl",
+      "published": "experiments/runs/banking77_qwen4b_base_test_warmup.jsonl",
+      "source_sha256": "5fdd406faf2c59c52c62a3b52f1e5f6c014be610c1a10712727a6959011dc433",
+      "published_sha256": "efdb374d50767b0c0c4815b4fc4fb9d09de23e4f7300c57f05d95fe49e639a39",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_qwen4b_base_test_warmup_ready.jsonl",
+      "published": "experiments/runs/banking77_qwen4b_base_test_warmup_ready.jsonl",
+      "source_sha256": "19ab6395b7df49203175a270e8aa56312ea95f9b6b723347bba7d3007d6a4545",
+      "published_sha256": "186be2b7ab1b8fe164697e690d7a719b88051435ace2d46e2ac0668f66c526ba",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_qwen4b_dev_smoke.jsonl",
+      "published": "experiments/runs/banking77_qwen4b_dev_smoke.jsonl",
+      "source_sha256": "4859bd8643e303efe5062b04f8ab90ac818b1695a2558be7a2635a612f4495bd",
+      "published_sha256": "d16358c79c7d443ff56b5a183c0236f9eaed1e9b8cdafaa26454718437ac71a9",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_qwen4b_dev_smoke_warm.jsonl",
+      "published": "experiments/runs/banking77_qwen4b_dev_smoke_warm.jsonl",
+      "source_sha256": "b6d49edb590805981617f6b9948920ffa035eef559e5a90c5163fc453175b71c",
+      "published_sha256": "e311bb0fbb0c003552837a54deb06f0f05044b7270feda51d84764688760cf08",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/base_smoke.jsonl",
+      "published": "experiments/runs/base_smoke.jsonl",
+      "source_sha256": "6938ab39bd7b9caee8232fefa415c9b7f8ae563e2ea5cc3746d1e756dbdd58b6",
+      "published_sha256": "4b7104f8fd7ba34cff31317786ea563a2b805d0e9c66436c2049c100e429942a",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/base_smoke_contract.jsonl",
+      "published": "experiments/runs/base_smoke_contract.jsonl",
+      "source_sha256": "789e5162765a5add1f7753f7a861e0727ac5139538a20a34e952367f8d62e9cb",
+      "published_sha256": "f736c1fb83091cd3e94856602e3532561c5a7bd5c8c7bb9567fd36dcca599506",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/base_v2_warmup.jsonl",
+      "published": "experiments/runs/base_v2_warmup.jsonl",
+      "source_sha256": "dad3d187e9f62c6c5eb7439cc208ef79ab5efb4153aa6d18fb26532f51d6140d",
+      "published_sha256": "22a960f78cadd8433ee162c8ffccc2e8bd24f8f9fd159e5567952ccab4eab2c8",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/tuned_smoke.jsonl",
+      "published": "experiments/runs/tuned_smoke.jsonl",
+      "source_sha256": "0ef204a84443dd0ab90b9d0c93f9fd1e11cc70c55c7b641f556c3a4bb0dd43f7",
+      "published_sha256": "5e3c73301068ffa43eab6446c596c16c3da9e8ff833a0f8ff26a23285419b1c7",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/tuned_v1.jsonl",
+      "published": "experiments/runs/tuned_v1.jsonl",
+      "source_sha256": "5885c2008a8b1a896dccf1e9a86bb0b969c8e640a91819fffb720a1211e86e67",
+      "published_sha256": "0af34e0f55a1a90f68730f51c32d16629f1dc07505f8418ee58a1791f2b9000f",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/tuned_warmup.jsonl",
+      "published": "experiments/runs/tuned_warmup.jsonl",
+      "source_sha256": "a4eeb4ccd918120b484d47c6e3501c05c37804c3968733082136c907d7924fcb",
+      "published_sha256": "65234751d07cea20daa479a2db1a0b1063c86642d2065d3a105df192f3541201",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012/base_warmup.jsonl",
+      "published": "experiments/execution/banking77_prompt_20261012/base_warmup.jsonl",
+      "source_sha256": "241819643633abd4bfcd07a91c89d173d0e80c3ec37f636492b3e6fd26df46d0",
+      "published_sha256": "0d5328994049b0381ab53f058055f2f3716d799188b80ce3c9fde954ecddf550",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012/tuned_warmup.jsonl",
+      "published": "experiments/execution/banking77_prompt_20261012/tuned_warmup.jsonl",
+      "source_sha256": "a25678c7b4dfef26dc23fd435fddc9bd5d57aed12e9c40253d58db56217ce1ff",
+      "published_sha256": "d87629c6fe50ec151c59438df1d7aac3fd98253d707dc630efb1fd8d40b78260",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012/run_started.json",
+      "published": "experiments/execution/banking77_prompt_20261012/run_started.json",
+      "source_sha256": "01e41fe0064e428d428ebba6ba1cb05e436a4b2b38e61fb0db0b5c19c4a84f4c",
+      "published_sha256": "01e41fe0064e428d428ebba6ba1cb05e436a4b2b38e61fb0db0b5c19c4a84f4c",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012/run_finished.json",
+      "published": "experiments/execution/banking77_prompt_20261012/run_finished.json",
+      "source_sha256": "934d409eed06c66c1fc318cf8f9a766287cc7119c2bb4be90a115a7c5d5d047f",
+      "published_sha256": "934d409eed06c66c1fc318cf8f9a766287cc7119c2bb4be90a115a7c5d5d047f",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/base_warmup.jsonl",
+      "published": "experiments/execution/banking77_prompt_20261012_retry/base_warmup.jsonl",
+      "source_sha256": "33b5e114fe8303dfec808804dbf4fe65dbf35e4f13ed3efc679e2ab1dbb5272e",
+      "published_sha256": "2977d5f0334790101342de0e41fcca8fd84b6924d414dae89dd00ec09cb0c14a",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/tuned_warmup.jsonl",
+      "published": "experiments/execution/banking77_prompt_20261012_retry/tuned_warmup.jsonl",
+      "source_sha256": "3c3571ffd2e84708057f3871785ac8232de1190310acc42f871a461f8512fa65",
+      "published_sha256": "513845de92caffb0334a50792e5b64b598f15b9f9c7128bff9c2d05f517aa9de",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/run_started.json",
+      "published": "experiments/execution/banking77_prompt_20261012_retry/run_started.json",
+      "source_sha256": "f0060afffc8385d48f0ebf9d6f0cf9989270b8b55b0bfec44a8bffa3a017ed64",
+      "published_sha256": "f0060afffc8385d48f0ebf9d6f0cf9989270b8b55b0bfec44a8bffa3a017ed64",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/run_finished.json",
+      "published": "experiments/execution/banking77_prompt_20261012_retry/run_finished.json",
+      "source_sha256": "8bbf439d8e8909f7d7a8ef5a23b52eef623ffcec561b67c6db61dae673afb15a",
+      "published_sha256": "8bbf439d8e8909f7d7a8ef5a23b52eef623ffcec561b67c6db61dae673afb15a",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/manifest.json",
+      "published": "experiments/followup/manifest.json",
+      "source_sha256": "87998ab2811cac7d8d0d4bca5aecf333ad6ae5044081f2dfdfdf8c48678494e3",
+      "published_sha256": "fe58f969dbd63e9b21aaa90dda003bb8d7c355d82312a2306153b0b6a31af099",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/environment.json",
+      "published": "experiments/followup/environment.json",
+      "source_sha256": "fd18d2f7563b7b68484d094ed85945d19ae3b9608999e210ee566a055847d984",
+      "published_sha256": "fd18d2f7563b7b68484d094ed85945d19ae3b9608999e210ee566a055847d984",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/definition_training_evidence.json",
+      "published": "experiments/followup/definition_training_evidence.json",
+      "source_sha256": "7628b6031d8a0c3324ecc26931540e86fa0f59acc5297ea58c732f625f0aa9ae",
+      "published_sha256": "7628b6031d8a0c3324ecc26931540e86fa0f59acc5297ea58c732f625f0aa9ae",
+      "transformation": "Byte-for-byte copy"
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/deployments_before.json",
+      "published": "experiments/followup/deployments_before.json",
+      "source_sha256": "d6c9c97357d1a82affcaf922ec4c1d19db74facc565230388fbd99ec80e50e24",
+      "published_sha256": "3885cb7d8bc42309e7d5d0943043b0abdcfc0268fadd5e306ce01c362d7d2e0b",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/deployments_after.json",
+      "published": "experiments/followup/deployments_after.json",
+      "source_sha256": "25892f906b5852cb7a82097d841933c3dacd58f203f4f8751ec665aab1d08537",
+      "published_sha256": "86893d33b6d06a2aaf356d166e752135cdb85802bfdc31344f3a1a3731e308ae",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    },
+    {
+      "source": "results/banking77_prompt_20261012_retry/deployments_wrapup.json",
+      "published": "experiments/followup/deployments_wrapup.json",
+      "source_sha256": "6b529569a7b59c878b35f36af3ab434f2f9b792f5bd3f5e078b809bd72dd57f0",
+      "published_sha256": "5dacc47d71f9ada738e61cd34b18fe04eee4029468a49398329e6a00f04d6368",
+      "transformation": "Provider resource aliases, response IDs, and local path prefixes normalized; scores, inputs, labels and model output retained."
+    }
+  ],
+  "note": "Source hashes refer to retained private files. Published hashes refer to this derivative export. No historical inference settings or retry records were fabricated.",
+  "derived_expected_results": {
+    "published": "evaluation/expected_results.json",
+    "published_sha256": "d0df16d6d7b2b83b1888b1bc9b57c95551357dd1d2f1311f38afa5ecd8085d37",
+    "sources": [
+      {
+        "path": "results/base_v0.json",
+        "sha256": "8446a202a1263e300ba199aa49ce7d2fe1e8a3b4ad84aace84a50132cef3e0bb"
+      },
+      {
+        "path": "results/base_v1.json",
+        "sha256": "3ae1ffd156cb02daeeb3b05beaa800a3d6a4f77b100705f37e9ff377da1ca322"
+      },
+      {
+        "path": "results/tuned_v1_warm.json",
+        "sha256": "768cd13c801681049d1d01257f485d33aa4ca9a742d56dc5101cf187d11093c1"
+      },
+      {
+        "path": "results/base_v2.json",
+        "sha256": "df0f4b5adf50be441fd42fb730d9dcfbe1d38de8e504bce053cbc5ffbbbd133f"
+      },
+      {
+        "path": "results/banking77_qwen4b_base_test.json",
+        "sha256": "1abfa85399aa241b195c782f857dad51f07bf598726d5a95b3d25dcb490c3f2e"
+      },
+      {
+        "path": "results/banking77_qwen4b_tuned_test.json",
+        "sha256": "8424dce579f7f7c99263e17bb82f9bf8a4e9939ead871b17f90a5ec538cc33c4"
+      },
+      {
+        "path": "results/banking77_prompt_20261012_retry/summary.json",
+        "sha256": "e44c9f0d54671251f7014cb689a5203d5402e83903852c5bbe80cd752b7c6dfd"
+      }
+    ],
+    "transformation": "Combines saved reports and paired comparisons; private raw-file hashes omitted because resource identifiers were normalized. All scores retained."
+  }
+}

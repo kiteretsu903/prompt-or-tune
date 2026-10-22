@@ -1,0 +1,52 @@
+{
+  "frozen_at_utc": "2026-10-13T00:32:16.063587+00:00",
+  "hypothesis": "Definitions improve base accuracy by >=5 percentage points with >=99% valid output; separately measure whether the LoRA advantage shrinks.",
+  "models": {
+    "base": "recorded://qwen3-4b-base",
+    "tuned": "recorded://qwen3-4b-banking77-lora"
+  },
+  "prompt_versions": [
+    "original",
+    "definitions-v1"
+  ],
+  "prompt_sha256": {
+    "original": "bec33ab0dd910d7b527ff880797ee0a7bf16d28757f21ac84fb3973de403184d",
+    "definitions-v1": "851588bfb246c8daeadccc83d8bf157073b2be87de645c054c4ab7763f373d37"
+  },
+  "confirmation_seed": 20261012,
+  "confirmation_per_intent": 5,
+  "confirmation_provenance": "Previously unused original-training reserve, disjoint by normalized text from SFT/train/dev/official test. Not a new external-domain test.",
+  "prior_exposure": "Official-test aggregate and some per-intent outcomes were discussed before this experiment. New prompt authored using label names and four selected-training examples per label, not confirmation examples. Development is reused. No new blind official-test claim.",
+  "settings": {
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "max_tokens": 40,
+    "concurrency_per_model": 8,
+    "batch_size": 32
+  },
+  "request_count": 3080,
+  "warmup_request_limit_per_model": 4,
+  "source_sha256": {
+    "data/banking77/train.jsonl": "2adb56a0a6b2b5aed154794682af3118d245c026994f4d4f86c02add1fe71489",
+    "data/banking77/dev.jsonl": "1a05f7b47784b74a69a0532e6224d47d3e29b9f0d6f0f251aba71e53b3ccb677",
+    "data/banking77/test.jsonl": "55fcdbaff137ef60de5e7b11b0850030ee02c3835e9ad6893fbdd48c1510800a",
+    "data/banking77/reserve.jsonl": "4c9d9f9680d222ecd47e3e1ff5c2a43a1f60e4d2707487a63ba8562828ab1503",
+    "data/banking77/sft_train.jsonl": "08d7e2fe2b5bb343e22acb90a3e052825c9741507bbf79ec51206f80ffb5a3df"
+  },
+  "code_sha256": {
+    "src/fireworks_lab/banking77.py": "1d249faf1edaf772139d44355320c336bc4cc04b9769fa78dce6bdc137083fe2",
+    "src/fireworks_lab/banking77_definitions.py": "bf3e4a22e55c8e8485c5272544f8609ccc30b7e6cb4bef0c82ab9d935b2a24fe",
+    "src/fireworks_lab/banking77_client.py": "8f27180c7c2a4944e31762cb2818661d9a61c1de4b826dd89f4b09a6e48f0964",
+    "src/fireworks_lab/banking77_run.py": "b2483e25354aed3a5d25aecbd870f20df154711415efb57bfa1993a0ed75a90b",
+    "src/fireworks_lab/banking77_prompt_experiment.py": "8621ca5ad42e6c9c7a1d4af0da64122740048f8221485b4f569c146d57e056aa",
+    "src/fireworks_lab/client.py": "495781e7b0587ac0c95a9a4bcc470c10fe6338bb892e108ce135bae3e3557944"
+  },
+  "snapshot_sha256": {
+    "confirmation_input.jsonl": "1789d6497b1c22cbf3633ef77b7fd12f1e0f83fa05b4def51dd48f80ebcd7eab",
+    "prompt_definitions-v1.txt": "851588bfb246c8daeadccc83d8bf157073b2be87de645c054c4ab7763f373d37",
+    "warmup_input.jsonl": "01a71f355f30b613143eaeee12368c3ce9f0e99d7010e76c4d56b57bbffafa44",
+    "prompt_original.txt": "bec33ab0dd910d7b527ff880797ee0a7bf16d28757f21ac84fb3973de403184d",
+    "dev_input.jsonl": "1a05f7b47784b74a69a0532e6224d47d3e29b9f0d6f0f251aba71e53b3ccb677"
+  },
+  "decision_rule": "Run all four arms on both splits once; do not revise definitions after seeing development results. Report all arms, paired changes, errors, latency and tokens. Confirmation is the primary check; >=5 pp is a practical threshold, not a statistical significance claim."
+}

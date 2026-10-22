@@ -1,0 +1,76 @@
+{
+  "id": "banking77-reserve-4307",
+  "text": "How do I set my physical card PIN?",
+  "expected": {
+    "intent": "get_physical_card"
+  },
+  "source_split": "confirmation",
+  "runs": {
+    "base_original": {
+      "id": "banking77-reserve-4307",
+      "text": "How do I set my physical card PIN?",
+      "expected": {
+        "intent": "get_physical_card"
+      },
+      "model": "recorded://qwen3-4b-base",
+      "task_version": "banking77-zero-shot-v1",
+      "prompt_version": "original",
+      "prompt_sha256": "bec33ab0dd910d7b527ff880797ee0a7bf16d28757f21ac84fb3973de403184d",
+      "prediction": {
+        "intent": "change_pin"
+      },
+      "latency_ms": 551.76,
+      "usage": {
+        "prompt_tokens": 536,
+        "completion_tokens": 8
+      },
+      "raw_output": "{\"intent\": \"change_pin\"}",
+      "error": null,
+      "batch_finished_at_utc": "2026-10-13T00:42:03.996292+00:00"
+    },
+    "base_definitions": {
+      "id": "banking77-reserve-4307",
+      "text": "How do I set my physical card PIN?",
+      "expected": {
+        "intent": "get_physical_card"
+      },
+      "model": "recorded://qwen3-4b-base",
+      "task_version": "banking77-definitions-v1",
+      "prompt_version": "definitions-v1",
+      "prompt_sha256": "851588bfb246c8daeadccc83d8bf157073b2be87de645c054c4ab7763f373d37",
+      "prediction": {
+        "intent": "get_physical_card"
+      },
+      "latency_ms": 511.58,
+      "usage": {
+        "prompt_tokens": 2210,
+        "completion_tokens": 9
+      },
+      "raw_output": "{\"intent\": \"get_physical_card\"}",
+      "error": null,
+      "batch_finished_at_utc": "2026-10-13T00:42:06.159897+00:00"
+    },
+    "lora_original": {
+      "id": "banking77-reserve-4307",
+      "text": "How do I set my physical card PIN?",
+      "expected": {
+        "intent": "get_physical_card"
+      },
+      "model": "recorded://qwen3-4b-banking77-lora",
+      "task_version": "banking77-zero-shot-v1",
+      "prompt_version": "original",
+      "prompt_sha256": "bec33ab0dd910d7b527ff880797ee0a7bf16d28757f21ac84fb3973de403184d",
+      "prediction": {
+        "intent": "get_physical_card"
+      },
+      "latency_ms": 608.98,
+      "usage": {
+        "prompt_tokens": 536,
+        "completion_tokens": 8
+      },
+      "raw_output": "{\"intent\":\"get_physical_card\"}",
+      "error": null,
+      "batch_finished_at_utc": "2026-10-13T00:42:10.304353+00:00"
+    }
+  }
+}

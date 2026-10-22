@@ -1,0 +1,1 @@
+{"id": "banking77-test-0001", "text": "How do I locate my card?", "expected": {"intent": "card_arrival"}, "model": "recorded://qwen3-4b-base", "task_version": "banking77-zero-shot-v1", "prediction": {"intent": "card_arrival"}, "latency_ms": 372.38, "usage": {"prompt_tokens": 534, "completion_tokens": 9}, "raw_output": "{\"intent\": \"card_arrival\"}", "error": null}

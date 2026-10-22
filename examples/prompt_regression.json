@@ -1,0 +1,76 @@
+{
+  "id": "banking77-reserve-1091",
+  "text": "I don't think the exchange rate was right.",
+  "expected": {
+    "intent": "wrong_exchange_rate_for_cash_withdrawal"
+  },
+  "source_split": "confirmation",
+  "runs": {
+    "base_original": {
+      "id": "banking77-reserve-1091",
+      "text": "I don't think the exchange rate was right.",
+      "expected": {
+        "intent": "wrong_exchange_rate_for_cash_withdrawal"
+      },
+      "model": "recorded://qwen3-4b-base",
+      "task_version": "banking77-zero-shot-v1",
+      "prompt_version": "original",
+      "prompt_sha256": "bec33ab0dd910d7b527ff880797ee0a7bf16d28757f21ac84fb3973de403184d",
+      "prediction": {
+        "intent": "wrong_exchange_rate_for_cash_withdrawal"
+      },
+      "latency_ms": 501.96,
+      "usage": {
+        "prompt_tokens": 537,
+        "completion_tokens": 14
+      },
+      "raw_output": "{\"intent\": \"wrong_exchange_rate_for_cash_withdrawal\"}",
+      "error": null,
+      "batch_finished_at_utc": "2026-10-13T00:41:35.783002+00:00"
+    },
+    "base_definitions": {
+      "id": "banking77-reserve-1091",
+      "text": "I don't think the exchange rate was right.",
+      "expected": {
+        "intent": "wrong_exchange_rate_for_cash_withdrawal"
+      },
+      "model": "recorded://qwen3-4b-base",
+      "task_version": "banking77-definitions-v1",
+      "prompt_version": "definitions-v1",
+      "prompt_sha256": "851588bfb246c8daeadccc83d8bf157073b2be87de645c054c4ab7763f373d37",
+      "prediction": {
+        "intent": "card_payment_wrong_exchange_rate"
+      },
+      "latency_ms": 528.33,
+      "usage": {
+        "prompt_tokens": 2211,
+        "completion_tokens": 11
+      },
+      "raw_output": "{\"intent\": \"card_payment_wrong_exchange_rate\"}",
+      "error": null,
+      "batch_finished_at_utc": "2026-10-13T00:41:33.672541+00:00"
+    },
+    "lora_original": {
+      "id": "banking77-reserve-1091",
+      "text": "I don't think the exchange rate was right.",
+      "expected": {
+        "intent": "wrong_exchange_rate_for_cash_withdrawal"
+      },
+      "model": "recorded://qwen3-4b-banking77-lora",
+      "task_version": "banking77-zero-shot-v1",
+      "prompt_version": "original",
+      "prompt_sha256": "bec33ab0dd910d7b527ff880797ee0a7bf16d28757f21ac84fb3973de403184d",
+      "prediction": {
+        "intent": "card_payment_wrong_exchange_rate"
+      },
+      "latency_ms": 640.32,
+      "usage": {
+        "prompt_tokens": 537,
+        "completion_tokens": 10
+      },
+      "raw_output": "{\"intent\":\"card_payment_wrong_exchange_rate\"}",
+      "error": null,
+      "batch_finished_at_utc": "2026-10-13T00:41:40.909181+00:00"
+    }
+  }
+}

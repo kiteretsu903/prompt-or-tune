@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "runs": {
+    "base_v0": {
+      "path": "evaluation/runs/base_v0.jsonl",
+      "task": "support",
+      "inputs": "data/eval.jsonl",
+      "model": "recorded://qwen3-4b-base",
+      "count": 54
+    },
+    "base_v1": {
+      "path": "evaluation/runs/base_v1.jsonl",
+      "task": "support",
+      "inputs": "data/eval.jsonl",
+      "model": "recorded://qwen3-4b-base",
+      "count": 54
+    },
+    "tuned_v1_warm": {
+      "path": "evaluation/runs/tuned_v1_warm.jsonl",
+      "task": "support",
+      "inputs": "data/eval.jsonl",
+      "model": "recorded://qwen3-4b-support-lora",
+      "count": 54
+    },
+    "base_v2": {
+      "path": "evaluation/runs/base_v2.jsonl",
+      "task": "support",
+      "inputs": "data/eval.jsonl",
+      "model": "recorded://qwen3-4b-base",
+      "count": 54
+    },
+    "banking77_qwen4b_base_test": {
+      "path": "evaluation/runs/banking77_qwen4b_base_test.jsonl",
+      "task": "banking",
+      "inputs": "data/banking77/test.jsonl",
+      "model": "recorded://qwen3-4b-base",
+      "count": 3080
+    },
+    "banking77_qwen4b_tuned_test": {
+      "path": "evaluation/runs/banking77_qwen4b_tuned_test.jsonl",
+      "task": "banking",
+      "inputs": "data/banking77/test.jsonl",
+      "model": "recorded://qwen3-4b-banking77-lora",
+      "count": 3080
+    },
+    "base_original_dev": {
+      "path": "evaluation/runs/followup/base_original_dev.jsonl",
+      "task": "banking",
+      "inputs": "evaluation/inputs/dev_input.jsonl",
+      "prompt_version": "original",
+      "model": "recorded://qwen3-4b-base",
+      "count": 385
+    },
+    "base_definitions-v1_dev": {
+      "path": "evaluation/runs/followup/base_definitions-v1_dev.jsonl",
+      "task": "banking",
+      "inputs": "evaluation/inputs/dev_input.jsonl",
+      "prompt_version": "definitions-v1",
+      "model": "recorded://qwen3-4b-base",
+      "count": 385
+    },
+    "tuned_original_dev": {
+      "path": "evaluation/runs/followup/tuned_original_dev.jsonl",
+      "task": "banking",
+      "inputs": "evaluation/inputs/dev_input.jsonl",
+      "prompt_version": "original",
+      "model": "recorded://qwen3-4b-banking77-lora",
+      "count": 385
+    },
+    "tuned_definitions-v1_dev": {
+      "path": "evaluation/runs/followup/tuned_definitions-v1_dev.jsonl",
+      "task": "banking",
+      "inputs": "evaluation/inputs/dev_input.jsonl",
+      "prompt_version": "definitions-v1",
+      "model": "recorded://qwen3-4b-banking77-lora",
+      "count": 385
+    },
+    "base_original_confirmation": {
+      "path": "evaluation/runs/followup/base_original_confirmation.jsonl",
+      "task": "banking",
+      "inputs": "evaluation/inputs/confirmation_input.jsonl",
+      "prompt_version": "original",
+      "model": "recorded://qwen3-4b-base",
+      "count": 385
+    },
+    "base_definitions-v1_confirmation": {
+      "path": "evaluation/runs/followup/base_definitions-v1_confirmation.jsonl",
+      "task": "banking",
+      "inputs": "evaluation/inputs/confirmation_input.jsonl",
+      "prompt_version": "definitions-v1",
+      "model": "recorded://qwen3-4b-base",
+      "count": 385
+    },
+    "tuned_original_confirmation": {
+      "path": "evaluation/runs/followup/tuned_original_confirmation.jsonl",
+      "task": "banking",
+      "inputs": "evaluation/inputs/confirmation_input.jsonl",
+      "prompt_version": "original",
+      "model": "recorded://qwen3-4b-banking77-lora",
+      "count": 385
+    },
+    "tuned_definitions-v1_confirmation": {
+      "path": "evaluation/runs/followup/tuned_definitions-v1_confirmation.jsonl",
+      "task": "banking",
+      "inputs": "evaluation/inputs/confirmation_input.jsonl",
+      "prompt_version": "definitions-v1",
+      "model": "recorded://qwen3-4b-banking77-lora",
+      "count": 385
+    }
+  },
+  "scope": "Retrospective public export of recorded runs; not a new pre-run freeze.",
+  "paired_bootstrap": {
+    "resamples": 5000,
+    "seed": 20261012,
+    "strata": "intent"
+  }
+}

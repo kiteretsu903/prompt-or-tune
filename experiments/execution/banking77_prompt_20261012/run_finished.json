@@ -1,0 +1,7 @@
+{
+  "finished_at_utc": "2026-10-13T00:30:39.139695+00:00",
+  "failures": [
+    "base did not warm up; diagnostics preserved",
+    "tuned did not warm up; diagnostics preserved"
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "recorded://qwen3-4b-base",
+    "base_model": "accounts/fireworks/models/qwen3-4b-instruct-2507",
+    "state": "READY",
+    "accelerator_type": "NVIDIA_B200_180GB",
+    "accelerator_count": 1,
+    "precision": "BF16",
+    "deployment_shape": "accounts/fireworks/deploymentShapes/qwen3-4b-instruct-2507-minimal-bf16-hotload/versions/lytg4ud9",
+    "min_replica_count": null,
+    "max_replica_count": 1,
+    "autoscaling_policy": {
+      "scale_up_window": "30s",
+      "scale_down_window": "300s",
+      "scale_to_zero_window": "300s",
+      "load_targets": {
+        "default": 0.8
+      }
+    },
+    "replica_stats": {
+      "ready_replica_count": 1,
+      "effective_replica_count": 1
+    },
+    "update_time": "2026-10-13T00:39:45.314105Z"
+  },
+  {
+    "name": "recorded://qwen3-4b-banking77-lora",
+    "base_model": "recorded://qwen3-4b-banking77-lora",
+    "state": "READY",
+    "accelerator_type": "NVIDIA_B200_180GB",
+    "accelerator_count": 1,
+    "precision": "BF16",
+    "deployment_shape": "accounts/fireworks/deploymentShapes/qwen3-4b-instruct-2507-minimal-bf16-hotload/versions/lytg4ud9",
+    "min_replica_count": null,
+    "max_replica_count": 1,
+    "autoscaling_policy": {
+      "scale_up_window": "30s",
+      "scale_down_window": "300s",
+      "scale_to_zero_window": "300s",
+      "load_targets": {
+        "default": 0.8
+      }
+    },
+    "replica_stats": {
+      "ready_replica_count": 1,
+      "effective_replica_count": 1
+    },
+    "update_time": "2026-10-13T00:40:15.013089Z"
+  }
+]

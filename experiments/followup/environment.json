@@ -1,0 +1,11 @@
+{
+  "python": "3.13.9",
+  "packages": {
+    "openai": "2.52.0",
+    "pydantic": "2.13.4",
+    "python-dotenv": "1.2.2",
+    "pytest": "9.1.1"
+  },
+  "git_head": "472ad794df50303494e340769343c23c88efb13f",
+  "working_tree": "pre-existing uncommitted experiment code plus this follow-up; source hashes in manifest"
+}
